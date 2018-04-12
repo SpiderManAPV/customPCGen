@@ -1,0 +1,38 @@
+SOURCELONG:Adam's Homebrew Stuff	SOURCEDATE:2017-10
+
+#insert your data here
+
+Street Mage								CATEGORY:FEAT	TYPE:General		PRESKILL:2,Spellcraft=3,Stealth=3	PRECLASS:1,SPELLCASTER=1		STACK:NO	MULT:NO		DESC:Your rogue and arcane training complement one another.	BENEFIT: Choose one arcane spellcasting class. Your caster level for that class increases by one for each level in the rogue class you possess, up to a maximum of 3 higher than your actual spellcaster level. In addition, when you become able to cast 3rd-level spells with an arcane spellcasting class, your sneak attack damage increases by +1d6.																										BONUS:CASTERLEVEL|TYPE.Arcane|3	BONUS:VAR|SneakAttack|1		
+Conceal Scent							CATEGORY:FEAT	TYPE:General		PRESKILL:2,Stealth=1,Survival=1										STACK:NO	MULT:NO		DESC:You have learned the essential tricks of disguising your odor and keeping creatures from locating you by your scent.	BENEFIT:Creatures cannot use the scent ability to track you (though they can still track you through standard means such as footprints). Creatures with scent can detect your presence by smell at half the normal distance, but cannot pinpoint your location with scent.																														
+Discipline Focus (Eternal Guardian)		CATEGORY:FEAT	TYPE:General		PRESPELLSCHOOL:3,Eternal Guardian=1									STACK:NO	MULT:NO		DESC:You gain a +2 bonus to saving throw DCs when using maneuvers of the selected discipline. You also inflict an additional +2 points of damage when wielding associated weapons of the chosen discipline. Special: If the character ever has fewer than three maneuvers known from the specialized discipline, then he loses the benefits of this feat until such a time that he does.																																	BONUS:COMBAT|DAMAGE.BladeHeavy,DAMAGE.Hammer,DAMAGE.Polearm|2|PRESPELLSCHOOL:3,Eternal Guardian	BONUS:DC|SCHOOL.Eternal Guardian|2|PRESPELLSCHOOL:3,Eternal Guardian
+Discipline Focus (Mithral Current)		CATEGORY:FEAT	TYPE:General		PRESPELLSCHOOL:3,Mithral Current=1									STACK:NO	MULT:NO		DESC:You gain a +2 bonus to saving throw DCs when using maneuvers of the selected discipline. You also inflict an additional +2 points of damage when wielding associated weapons of the chosen discipline. Special: If the character ever has fewer than three maneuvers known from the specialized discipline, then he loses the benefits of this feat until such a time that he does.																																	BONUS:COMBAT|DAMAGE.BladeHeavy,DAMAGE.BladeLight,DAMAGE.Polearm|2|PRESPELLSCHOOL:3,Mithral Current	BONUS:DC|SCHOOL.Eternal Guardian|2|PRESPELLSCHOOL:3,Eternal Guardian
+Blinded Blade Style						CATEGORY:FEAT	TYPE:Combat.Style	PRESKILL:1,Perception=5		PREABILITY:CATEGORY=FEAT,Blind-Fight	STACK:NO	MULT:NO		DESC:You are skilled at attacking opponents that you cannot clearly perceive.	BENEFIT:In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit. An invisible attacker gets no advantages related to hitting you in melee. You don’t lose your Dexterity bonus to Armor Class, and the attacker doesn’t get the usual +2 bonus for being invisible. You do not need to make Acrobatics skill checks to move at full speed while blinded.
+
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Feat File tags" to find
+#out how the tags in the feats file work. Some of the tags used here are global tags. You will see an alphabetical
+#listing of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+#
+#
+#####1st Example
+
+#	Skill Focus		CATEGORY:FEAT	TYPE:General.SkillFocus	DESC:You are particularly adept at your chosen skill.	STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE=Charisma|TYPE=Dexterity|TYPE=Intelligence|TYPE=Strength|TYPE=Wisdom	SOURCEPAGE:p.134	BENEFIT:You get a +3 bonus on all checks involving the chosen skill. If you have 10 or more ranks in that skill, this bonus increases to +6.
+# The bonus to the skill is in the Skill File, however, you can bonus the skill directly by adding the following:
+#	BONUS:SKILL|%LIST|3
+# %LIST is a substitution, and then the number is applied to the chosen skill(s).
+
+#####
+#The TYPE tag is holding a . (period) delimited list of the types the feat is.
+#
+#The DESC tag is used to hold the description of the Feat. In our files we usually keep the description brief, so the user
+#still need to own the book to make use of of the data, but for your personal files can get as elaborate as you want there.
+#
+#The MULT tag determines if a feat can be taken multiple times. If the value is set to YES, then you MUST also use a CHOOSE
+#tag.
+#
+#The CHOOSE tag must be paired with a MULT:YES tag in feats for it to work properly. It will display a popup window that asks
+#for a selection according to what is being called for. There is a multitude of existing CHOOSE tags in PCGen. If you are
+#looking into the documentation under List File Tag Index, you can find them listed under the topic "CHOOSE tags".
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
