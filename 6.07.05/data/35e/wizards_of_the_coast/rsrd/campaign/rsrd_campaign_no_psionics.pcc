@@ -1,0 +1,143 @@
+# CVS $Revision: 20598 $ $Author: amaitland $ -- Mon Oct 13 15:56:00 2003 -- reformated by prettylst.pl v1.29 (build 294)
+CAMPAIGN:3.5 RSRD - Campaign Set - No Psionics
+RANK:1
+GAMEMODE:35e
+GENRE:Fantasy
+BOOKTYPE:Core Rules
+SETTING:RSRD
+TYPE:Wizards of the Coast.RSRD.Campaign
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[3.5 RSRD - Campaign Set - No Psionics]
+PUBNAMELONG:Wizards of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com/default.asp?x=dnd
+SOURCELONG:Revised (v.3.5) System Reference Document
+SOURCESHORT:RSRD
+SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35
+SOURCEDATE:2000-01
+# COMMENT: Unknown Month - Set as 01
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:PCGen dataset conversion for the System Reference Document Copyright 2001-2007, PCgen Data team (Including, but not limited to Andrew McDougall (Tir Gwaith), Doug McMill, Paul W. King, Chris Chandler (Barak), Michael Gray (Taluonr Iscandar), Kenneth Walters (GldDragon35), Mike Sledge (zodar6), Patryk Adamski (Ruemere), Larry Davis (Sir George Anonymous), James Dempsey, Bryan (Merton Monk) McRoberts, Thomas Jannes (chipoulou), Samuel Hendricks (NotMousse), Sigurdur H. Olafsson, Jayme Cox, Jeremy "Illrigger" Turnley, Emily Smirle, Martin Fagerström, Chris McLaughlin, Raymond Yao, Eddy Anthony (MoSaT), Thomas Clegg (Arknight), Andargor, Devon Jones, Aaron Divinsky, Frank Kliewe)
+
+INFOTEXT:This is a subset of the RSRD which excludes Psionics, this should not be loaded with any other RSRD sets.
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:@/35e/wizards_of_the_coast/srd35/OGL.txt
+
+SIZE:@/35e/wizards_of_the_coast/rsrd/basics/rsrd__size.lst
+ALIGNMENT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd__align.lst
+DATACONTROL:@/35e/wizards_of_the_coast/rsrd/basics/rsrd__datacontrols.lst
+SAVE:@/35e/wizards_of_the_coast/rsrd/basics/rsrd__saves.lst
+STAT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd__stats.lst
+
+
+# Basics
+ABILITY:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_abilities.lst
+ABILITY:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_abilities_class.lst
+ABILITY:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_abilities_race.lst
+ABILITYCATEGORY:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_abilitycategories.lst
+
+CLASS:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_classes.lst
+#CLASS:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_classes_monsters.lst|(INCLUDE:Animal|Animal (Will)|Magical Beast|Sorcerer/Cleric (Arcane))
+COMPANIONMOD:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_companionmods.lst
+DEITY:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_deities.lst
+DOMAIN:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_domains.lst
+
+EQUIPMENT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_equip_arms_and_armor.lst
+EQUIPMENT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_equip_general.lst
+EQUIPMENT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_equip_magic_items.lst
+
+EQUIPMOD:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_equipmods.lst
+
+ABILITY:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_feats.lst
+
+KIT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_kits_companion.lst
+#|(INCLUDE:Bat Default|Cat Default|Hawk Default|Lizard Default|Owl Default|Rat Default|Raven Default|Snake (Viper/Tiny) Default|Toad Default|Weasel Default|Dog (Riding) Default|Donkey Default|Horse (Heavy) Default|Horse (Light) Default|Horse (Warhorse Heavy) Default|Horse (Warhorse Light) Default|Mule Default|Pony Default|Pony (War) Default|Shark (Large) Default|Bat Familiar|Cat Familiar|Hawk Familiar|Lizard Familiar|Owl Familiar|Rat Familiar|Raven Familiar|Snake (Viper/Tiny) Familiar|Toad Familiar|Weasel Familiar)
+KIT:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_kits.lst
+
+LANGUAGE:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_languages.lst
+
+ARMORPROF:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_profs_armor.lst
+SHIELDPROF:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_profs_shield.lst
+WEAPONPROF:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_profs_weapon.lst
+
+RACE:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_races.lst
+RACE:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_races_companion.lst
+
+SKILL:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_skills.lst|(EXCLUDE:Control Shape)
+SPELL:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_spells.lst
+
+TEMPLATE:@/35e/wizards_of_the_coast/rsrd/basics/rsrd_templates.lst
+
+
+#Hiding Starting Outfits
+HIDETYPE:EQUIP|Starting
+#Hiding specific tool types that are used in BONUSes
+HIDETYPE:EQUIP|ArmorsmithingTools|BowmakingTools|BlacksmithingTools|CarpentryTools|LeatherworkingTools|PaintingTools|PotteryTools|SculptingTools|ShipmakingTools|StonemasonryTools|TrapmakingTools|WeaponsmithingTools|WoodworkingTools|LightSource
+
+# Hide key stat types for skills
+HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Standard|None|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Craft (Alchemy)|Craft (Armorsmithing)|Craft (Bowmaking)|Craft (Blacksmithing)|Craft (Carpentry)|Craft (Leatherworking)|Craft (Painting)|Craft (Pottery)|Craft (Sculpting)|Craft (Shipmaking)|Craft (Stonemasonry)|Craft (Stoneworking)|Craft (Trapmaking)|Craft (Weaponsmithing)|Craft (Woodworking)|Craft (Untrained)|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal|Hide|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Nature)|Knowledge (Nobility and Royalty)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Literacy|Move Silently|Open Lock|Perform (Untrained)|Perform (Act)|Perform (Comedy)|Perform (Dance)|Perform (Keyboard Instruments)|Perform (Oratory)|Perform (Percussion Instruments)|Perform (String Instruments)|Perform (Wind Instruments)|Perform (Sing)|Profession (Hunter)|Profession (Miner)|Profession (Siege Engineer)|Ride|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope
+HIDETYPE:SKILL|Craft (Dreamweaving)|Craft (Gemcutting)|Craft (Metalworking)|Craft (Stoneworking)|Profession (Bookkeeper)
+
+
+
+# Monsters
+CLASS:@/35e/wizards_of_the_coast/rsrd/monsters/rsrd_classes_monsters_dragons.lst
+CLASS:@/35e/wizards_of_the_coast/rsrd/monsters/rsrd_classes_monsters_specific.lst
+EQUIPMENT:@/35e/wizards_of_the_coast/rsrd/monsters/rsrd_equip.lst
+KIT:@/35e/wizards_of_the_coast/rsrd/monsters/rsrd_kits.lst
+RACE:@/35e/wizards_of_the_coast/rsrd/monsters/rsrd_races.lst
+
+
+
+# Epic
+ABILITY:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_abilities_class_epic.lst
+ABILITY:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_abilities_epic_companions.lst
+
+ABILITYCATEGORY:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_ability_categories_epic.lst
+
+CLASS:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_classes_base_epic.lst
+CLASS:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_classes_epic.lst
+CLASS:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_classes_monsters_dragons_epic.lst
+CLASS:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_classes_prestige_epic.lst
+
+COMPANIONMOD:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_companionmod_epic.lst
+
+ABILITY:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_feats_epic.lst
+ABILITY:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_feats_monster_epic.lst
+
+KIT:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_kits_epic_races.lst
+KIT:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_kits_epic_races_dragons.lst
+
+RACE:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_races_epic.lst
+RACE:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_races_dragons_epic.lst
+
+TEMPLATE:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_templates_epic.lst
+
+SKILL:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_skills_epic.lst
+
+EQUIPMENT:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_equip_epic.lst
+
+EQUIPMOD:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_equipmods_epic_enhancing.lst
+
+SPELL:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_spells_epic.lst
+
+WEAPONPROF:@/35e/wizards_of_the_coast/rsrd/epic/rsrd_weaponprofs_epic.lst
+
+HIDETYPE:FEAT|EpicBarbarian|EpicBard|EpicCleric|EpicDruid|EpicFighter|EpicMonk|EpicPaladin|EpicRanger|EpicRogue|EpicSorcerer|EpicWizard
+HIDETYPE:FEAT|EpicArcaneArcher|EpicArcaneTrickster|EpicAssassin|EpicBlackguard|EpicDragonDisciple|EpicDuelist|EpicDwarvenDefender|EpicEldritchKnight|EpicHorizonWalker|EpicLoremaster|EpicMysticTheurge|EpicShadowdancer
+HIDETYPE:FEAT|AgentRetriever|CosmicDescryer|DivineEmissary|GuardianParamount|HighProselytizer|LegendaryDreadnought|PerfectWight
+
+# Divine
+ABILITY:@/35e/wizards_of_the_coast/rsrd/divine/rsrd_divine_abilities.lst
+ABILITYCATEGORY:@/35e/wizards_of_the_coast/rsrd/divine/rsrd_divine_abilitycategories.lst
+TEMPLATE:@/35e/wizards_of_the_coast/rsrd/divine/rsrd_divine_templates.lst
+
+# Universal tags
+COMPANIONLIST:Mount|ANY
+COMPANIONLIST:Follower|ANY
+
+#
+# End
+#

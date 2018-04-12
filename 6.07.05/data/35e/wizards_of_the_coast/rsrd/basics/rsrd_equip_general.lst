@@ -1,0 +1,556 @@
+# CVS $Revision$ $Author$ -- Mon Sep 15 21:55:54 2014 -- reformated by prettylst.pl v1.51 (build 25129)
+SOURCELONG:Revised (v.3.5) System Reference Document	SOURCESHORT:RSRD	SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35	SOURCEDATE:2000-01
+
+# Original Entry by byngl
+SOURCELONG:Revised (v.3.5) System Reference Document	SOURCESHORT:RSRD	SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35	SOURCEDATE:2000-01
+
+# Sorted by the "Magic Items on the Body" listing for now...
+# Equipment Name	Type						Cost		Weight	Slot Needed	Requires Modification?	Source Page
+Headband		TYPE:Headgear				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Hat			TYPE:Headgear				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Helmet		TYPE:Headgear				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Phylactery		TYPE:Headgear				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Eye Lenses		TYPE:Eyegear				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Goggles		TYPE:Eyegear				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Amulet		TYPE:Amulet					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Brooch		TYPE:Amulet					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Medallion		TYPE:Amulet					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Necklace		TYPE:Amulet					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Periapt		TYPE:Amulet					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Scarab		TYPE:Amulet					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Vest			TYPE:Shirt					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Vestment		TYPE:Shirt					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Shirt			TYPE:Shirt					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Robe			TYPE:Robe					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Belt			TYPE:Belt					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Cloak			TYPE:Cape					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Cape			TYPE:Cape					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Mantle		TYPE:Cape					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Bracers		TYPE:Bracer					COST:0	WT:0		SLOTS:2	MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Bracelets		TYPE:Bracer					COST:0	WT:0		SLOTS:2	MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Gloves		TYPE:Glove					COST:0	WT:0		SLOTS:2	MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Gauntlets		TYPE:Glove					COST:0	WT:0		SLOTS:2	MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Ring			TYPE:Ring					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Boots			TYPE:Boot					COST:0	WT:0		SLOTS:2	MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Shoes			TYPE:Boot					COST:0	WT:0		SLOTS:2	MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Art			TYPE:Art					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem			TYPE:Gem					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:Treasure
+# From "summary of magic item creation costs"
+Potion		TYPE:Potion.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Rod			TYPE:Rod					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Scroll		TYPE:Scroll.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Staff			TYPE:Staff					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+Wand			TYPE:Wand					COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicItemsI
+# From Magic Overview "Components"
+Spell Component	TYPE:MaterialComponent.Consumable	COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicOverview
+Spell Focus		TYPE:SpellFocus				COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:MagicOverview
+
+###Block: Trap
+# Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property
+Trap (Mechanical)	OUTPUTNAME:[NAME] Trap	TYPE:Trap.Mechanical	COST:1000			DEFINE:TrapCR|0	MODS:REQUIRED		SOURCEPAGE:RSRD Traps	SPROP:Trap CR %|TrapCR
+
+# Original Entry by: arbernet
+
+# Was this done from scratch?
+
+# Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property
+Coin (Platinum)					TYPE:Coin			COST:10	WT:0.02								SOURCEPAGE:Equipment
+Coin (Gold)						TYPE:Coin			COST:1	WT:0.02								SOURCEPAGE:Equipment
+Coin (Silver)					TYPE:Coin			COST:0.1	WT:0.02								SOURCEPAGE:Equipment
+Coin (Copper)					TYPE:Coin			COST:0.01	WT:0.02								SOURCEPAGE:Equipment
+
+###Block:Gems
+# Changes from 3.0: <gem> (Star) -> Star <gem>
+# Added "Irregular" to freshwater pearl
+# Equipment Name				SORTKEY			Output Name						Type			Cost		Weight	Source Page
+Agate (Banded)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Agate				TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Agate (Eye)					SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Agate				TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Agate (Moss)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Agate				TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Azurite					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Quartz (Blue)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Quartz			TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Hematite					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Lapis Lazuli				SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Malachite					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Obsidian					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Rhodochrosite				SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Tiger Eye					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Turquoise					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Pearl (Freshwater/Irregular)		SORTKEY:Gem_Standard	OUTPUTNAME:Freshwater (Irregular) Pearl	TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Bloodstone					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Carnelian					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Chalcedony					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Chrysoprase					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Citrine					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Iolite					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Jasper					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Moonstone					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Onyx						SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Peridot					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Rock Crystal (Clear Quartz)		SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Sard						SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Sardonyx					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Quartz (Rose)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Quartz			TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Quartz (Smoky)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Quartz			TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Quartz (Star Rose)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Quartz			TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Zircon					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:50	WT:0		SOURCEPAGE:Treasure
+Amber						SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Amethyst					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Chrysoberyl					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Coral						SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Garnet (Red)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Garnet			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Garnet (Brown-Green)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Garnet			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Jade						SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Jet						SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Pearl (White)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Pearl				TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Pearl (Golden)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Pearl				TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Pearl (Pink)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Pearl				TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Pearl (Silver)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Pearl				TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Spinel (Red)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Spinel			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Spinel (Red-Brown)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Spinel			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Spinel (Deep Green)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Spinel			TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Tourmaline					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:100	WT:0		SOURCEPAGE:Treasure
+Alexandrite					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:Treasure
+Aquamarine					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:Treasure
+Garnet (Violet)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Garnet			TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:Treasure
+Pearl (Black)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Pearl				TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:Treasure
+Spinel (Deep Blue)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Spinel			TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:Treasure
+Topaz (Golden Yellow)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Topaz				TYPE:Goods.Gem	COST:500	WT:0		SOURCEPAGE:Treasure
+Emerald					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Opal (White)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Opal				TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Opal (Black)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Opal				TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Opal (Fire)					SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Opal				TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Sapphire (Blue)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Sapphire			TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Corundum (Fiery Yellow)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Corundum			TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Corundum (Rich Purple)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Corundum			TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Star Sapphire (Blue)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Star Sapphire		TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Star Sapphire (Black)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Star Sapphire		TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Ruby (Star)					SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Ruby				TYPE:Goods.Gem	COST:1000	WT:0		SOURCEPAGE:Treasure
+Emerald (Clearest Bright Green)	SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Emerald			TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+Diamond (Blue-White)			SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Diamond			TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+Diamond (Canary)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Diamond			TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+Diamond (Pink)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Diamond			TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+Diamond (Brown)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Diamond			TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+Diamond (Blue)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Diamond			TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+Jacinth					SORTKEY:Gem_Standard								TYPE:Goods.Gem	COST:5000	WT:0		SOURCEPAGE:Treasure
+
+# Original Entry by: Aaron Divinsky <boomer70@yahoo.com>
+
+###Block:Gems
+# Equipment Name										SORTKEY			Output Name											Type					Cost		Weight	Requires Modification?	Source Page					Special Property
+Gem (Agate (Banded))									SORTKEY:Gem_Random	OUTPUTNAME:Banded Agate									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Agate (Eye))										SORTKEY:Gem_Random	OUTPUTNAME:Eye Agate									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Agate (Moss))									SORTKEY:Gem_Random	OUTPUTNAME:Moss Agate									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Azurite)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Quartz (Blue))									SORTKEY:Gem_Random	OUTPUTNAME:Blue Quartz									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Hematite)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Lapis Lazuli)									SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Malachite)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Obsidian)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Rhodochrosite)									SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Tiger Eye)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Turquoise)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Pearl (Freshwater/Irregular))							SORTKEY:Gem_Random	OUTPUTNAME:Freshwater (Irregular) Pearl						TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Bloodstone)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Carnelian)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Chalcedony)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Chrysoprase)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Citrine)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Iolite)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Jasper)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Moonstone)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Onyx)											SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Peridot)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Rock Crystal (Clear Quartz))							SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Sard)											SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Sardonyx)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Quartz (Rose))									SORTKEY:Gem_Random	OUTPUTNAME:Rose Quartz									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Quartz (Smoky))									SORTKEY:Gem_Random	OUTPUTNAME:Smoky Quartz									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Quartz (Star Rose))								SORTKEY:Gem_Random	OUTPUTNAME:Star Rose Quartz								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Zircon)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Amber)											SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Amethyst)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Chrysoberyl)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Coral)											SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Garnet (Red))									SORTKEY:Gem_Random	OUTPUTNAME:Red Garnet									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Garnet (Brown-Green))								SORTKEY:Gem_Random	OUTPUTNAME:Brown-Green Garnet								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Jade)											SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Jet)											SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Pearl (White))									SORTKEY:Gem_Random	OUTPUTNAME:White Pearl									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Pearl (Golden))									SORTKEY:Gem_Random	OUTPUTNAME:Golden Pearl									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Pearl (Pink))									SORTKEY:Gem_Random	OUTPUTNAME:Pink Pearl									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Pearl (Silver))									SORTKEY:Gem_Random	OUTPUTNAME:Silver Pearl									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Spinel (Red))									SORTKEY:Gem_Random	OUTPUTNAME:Red Spinel									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Spinel (Red-Brown))								SORTKEY:Gem_Random	OUTPUTNAME:Red-Brown Spinel								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Spinel (Deep Green))								SORTKEY:Gem_Random	OUTPUTNAME:Deep Green Spinel								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Tourmaline)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Alexandrite)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Aquamarine)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Garnet (Violet))									SORTKEY:Gem_Random	OUTPUTNAME:Violet Garnet								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Pearl (Black))									SORTKEY:Gem_Random	OUTPUTNAME:Black Pearl									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Spinel (Deep Blue))								SORTKEY:Gem_Random	OUTPUTNAME:Deep Blue Spinel								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Topaz (Golden Yellow))								SORTKEY:Gem_Random	OUTPUTNAME:Golden Yellow Topaz							TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Emerald)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Opal (White))									SORTKEY:Gem_Random	OUTPUTNAME:White Opal									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Opal (Black))									SORTKEY:Gem_Random	OUTPUTNAME:Black Opal									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Opal (Fire))										SORTKEY:Gem_Random	OUTPUTNAME:Fire Opal									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Sapphire (Blue))									SORTKEY:Gem_Random	OUTPUTNAME:Blue Sapphire								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Corundum (Firey Yellow))								SORTKEY:Gem_Random	OUTPUTNAME:Firey Yellow Corundum							TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Corundum (Rich Purple))								SORTKEY:Gem_Random	OUTPUTNAME:Rich Purple Corundum							TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Star Sapphire (Blue))								SORTKEY:Gem_Random	OUTPUTNAME:Blue Star Sapphire								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Star Sapphire (Black))								SORTKEY:Gem_Random	OUTPUTNAME:Black Star Sapphire							TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Ruby (Star))										SORTKEY:Gem_Random	OUTPUTNAME:Star Ruby									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Emerald (Clearest Bright Green))						SORTKEY:Gem_Random	OUTPUTNAME:Clearest Bright Green Emerald						TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Diamond (Blue-White))								SORTKEY:Gem_Random	OUTPUTNAME:Blue-White Diamond								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Diamond (Canary))									SORTKEY:Gem_Random	OUTPUTNAME:Canary Diamond								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Diamond (Pink))									SORTKEY:Gem_Random	OUTPUTNAME:Pink Diamond									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Diamond (Brown))									SORTKEY:Gem_Random	OUTPUTNAME:Brown Diamond								TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Diamond (Blue))									SORTKEY:Gem_Random	OUTPUTNAME:Blue Diamond									TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Gem (Jacinth)										SORTKEY:Gem_Random	OUTPUTNAME:[NAME]										TYPE:Goods.Gem			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+
+Art (Silver Ewer)														OUTPUTNAME:[NAME]										TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Statuette (Carved Bone))												OUTPUTNAME:Carved Bone Statuette							TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Statuette (Ivory))													OUTPUTNAME:Ivory Statuette								TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Bracelet (Small/Gold/Finely Wrought))									OUTPUTNAME:Finely Wrought Small Gold Bracelet					TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Vestments (Cloth of Gold))											OUTPUTNAME:Cloth of Gold Vestments							TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Mask (Black Velvet with Numerous Citrines))								OUTPUTNAME:Black Velvet Mask with Numerous Citrines				TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Chalice (Silver with Lapis Lazuli Gems)									OUTPUTNAME:Silver Chalice with Lapis Lazuli Gems				TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Tapestry (Large/Wool/Well-Done))										OUTPUTNAME:Large Well-Done Wool Tapestry						TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Mug (Brass with Jade Inlays))											OUTPUTNAME:Brass Mug with Jade Inlays						TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Comb (Silver with Moonstones))											OUTPUTNAME:Silver Comb with Moonstones						TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Longsword (Silver-Plated with Jet Jewel in Hilt))							OUTPUTNAME:Silver-Plated Steel Longsword with Jet Jewel in Hilt		TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Harp (Carved Exotic Wood with Ivory Inlay and Zircon Gems))						OUTPUTNAME:Carved Harp of Exotic Wood with Ivory Inlay and Zircon Gems	TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Idol (Solid Gold 10 lb.))											OUTPUTNAME:Solid Gold Idol (10 lb.)							TYPE:Goods.Art			COST:0	WT:10		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Comb (Gold Dragon with Red Garnet Eye))									OUTPUTNAME:Gold Dragon Comb with Red Garnet Eye					TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Stopper Cork (Gold and Topaz))											OUTPUTNAME:Gold and Topaz Stopper Cork						TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Dagger (Ceremonial Electrum with Star Ruby in the Pommel))						OUTPUTNAME:Ceremonial Electrum Dagger with a Star Ruby in the Pommel	TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Eyepatch (Mock Eye of Sapphire and Moonstone))								OUTPUTNAME:Eyepatch with Mock Eye of Sapphire and Moonstone			TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Pendant (Fire Opal on Fine Gold Chain))									OUTPUTNAME:Fire Opal Pendant on a Fine Gold Chain				TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Painting (Old Masterpiece))											OUTPUTNAME:Old Masterpiece Painting							TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Mantle (Embroidered Silk and Velvet with Numerous Moonstones))					OUTPUTNAME:Embroidered Silk and Velvet Mantle with Numerous Moonstones	TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Pendant (Sapphire on Gold Chain))										OUTPUTNAME:Sapphire Pendant on Gold Chain						TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Glove (Embroidered and Bejeweled))										OUTPUTNAME:Embroidered and Bejeweled Glove					TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Anklet (Jeweled))													OUTPUTNAME:Jeweled Anklet								TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Music Box (Gold))													OUTPUTNAME:Gold Music Box								TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Circlet (Golden with Four Aquamarines))									OUTPUTNAME:Golden Circlet with Four Aquamarines					TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Necklace (String of Small Pink Pearls))									OUTPUTNAME:String of Small Pink Pearls (Necklace)				TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Crown (Jeweled Gold))												OUTPUTNAME:Jeweled Gold Crown								TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Ring (Jeweled Electrum))												OUTPUTNAME:Jeweled Electrum Ring							TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Ring (Gold and Ruby))												OUTPUTNAME:Gold and Ruby Ring								TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+Art (Cup (Gold Set with Emeralds))											OUTPUTNAME:Gold Cup Set with Emeralds						TYPE:Goods.Art			COST:0	WT:0		MODS:REQUIRED		SOURCEPAGE:Treasure
+
+# Author: Thomas/Chipoulou tjannes@vub.ac.be
+
+#Poisons
+# Equipment Name										SORTKEY			Output Name											Type					Cost		Weight	Requires Modification?	Source Page					Special Property
+Poison (Nitharit)														OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:650	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Contact DC 13, Init.:0, Sec.:3d6 CON
+Poison (Sassone leaf residue)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:300	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Contact DC 16, Init.:2d12 HP, Sec.:1d6 CON
+Poison (Malyss root paste)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:500	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Contact DC 16, Init.:1 DEX, Sec.:2d4 DEX
+Poison (Terinav root)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:750	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Contact DC 16, Init.:1d6 DEX, Sec.:2d6 DEX
+Poison (Black lotus extract)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:4500	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Contact DC 20, Init.:3d6 CON / 3d6 CON
+Poison (Dragon bile)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:1500	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Contact DC 26, Init.:3d6 STR / 0
+Poison (Striped toadstool)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:180	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Ingested DC 11, Init.:1 WIS, Sec.:2d6 WIS + 1d4 INT
+Poison (Arsenic)														OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:120	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Ingested DC 13, Init.:1 CON, Sec.:1d8 CON
+Poison (Id moss)														OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:125	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Ingested DC 14, Init.:1d4 INT, Sec.: 2d6 INT
+Poison (Oil of taggit)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:90	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Ingested DC 15, Init.:0, Sec.: unconsciousness
+Poison (Lich dust)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:250	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Ingested DC 17, Init.:2d6 STR, Sec.:1d6 STR
+Poison (Dark reaver powder)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:300	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Ingested DC 18, Init.:2d6 CON / 1d6 CON + 1d6 STR
+Poison (Ungol dust)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:1000	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Inhaled DC 15, Init.:1 CHA, Sec.:1d6 CHA + 1 CHA (permanent)
+Poison (Insanity mist)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:1500	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Inhaled DC 15, Init.:1d4 WIS, Sec.: 2d6 WIS
+Poison (Burnt othur fumes)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:2100	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Inhaled DC 18, Init.:1 CON (permanent), Sec.:3d6 CON
+Poison (Black adder venom)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:120	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 11, Init.:1d6 CON, Sec.:1d6 CON
+Poison (Small centipede poison)											OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:90	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 11, Init.:1d2 DEX / 1d2 DEX
+Poison (Bloodroot)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:100	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 12, Init.:0, Sec.:1d4 CON + 1d3 WIS
+Poison (Drow Poison)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:75	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 13, Init.:unconsciousness, Sec.:unconsciousness for 2d4 hours
+Poison (Greenblood oil)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:100	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 13, Init.:1 CON, Sec.:1d2 CON
+Poison (Blue whinnis)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:120	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 14, Init.:1 CON, Sec.:unconsciousness
+Poison (Medium spider venom)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:150	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 14, Init.:1d4 STR, Sec.:1d4 STR
+Poison (Shadow essence)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:250	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 17, Init.:1 STR (permanent), Sec.:2d6 STR
+Poison (Wyvern poison)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:3000	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 17, Init.:2d6 CON, Sec.:2d6 CON
+Poison (Large scorpion venom)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:200	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 18, Init.:1d6 STR, Sec.:1d6 STR
+Poison (Giant wasp poison)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:210	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 18, Init.:1d6 DEX, Sec.:1d6 DEX
+Poison (Deathblade)													OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:1800	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 20, Init.:1d6 CON, Sec.:2d6 CON
+Poison (Purple worm poison)												OUTPUTNAME:[NAME]										TYPE:Goods.Poison.Consumable	COST:700	WT:0						SOURCEPAGE:AbilitiesandConditions	SPROP:Injury DC 24, Init.:1d6 STR, Sec.:2d6 STR
+
+
+# Original Entry by: abernat/altered by dlm1065
+
+# Changes: Commented out everything not _explicitly_ in the RSRD (flask-less liquids, etc.)
+# Any item without a superscript 1 (rules for resizing for small) is assumed to not be resizable.
+# New 5.14 'QUALITY:Bright Illumination|x ft.' and 'QUALITY:Shadowy Illumination|x ft.' and 'QUALITY:Duration|x' for light sources. -AM
+
+###Block:Alchemical Stuff and Liquids
+# Equipment Name			Type								Cost		Weight	Source Page			Quality and value
+Acid (Flask)			TYPE:Goods.Alchemical.Flask.Consumable.Liquid	COST:10	WT:1.00	SOURCEPAGE:Equipment
+Alchemist's Fire (Flask)	TYPE:Goods.Alchemical.Flask.Consumable.Liquid	COST:20	WT:1.00	SOURCEPAGE:Equipment
+Antitoxin (Vial)			TYPE:Goods.Alchemical.Vial.Consumable.Liquid	COST:50	WT:0		SOURCEPAGE:Equipment
+Everburning Torch			TYPE:Goods.Magic.LightSource				COST:110	WT:1		SOURCEPAGE:Equipment	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|Permanent
+Holy Water (Flask)		TYPE:Goods.Flask.Consumable.Liquid			COST:25	WT:1		SOURCEPAGE:Equipment
+Smokestick				TYPE:Goods.Alchemical.Consumable			COST:20	WT:0.5	SOURCEPAGE:Equipment
+Sunrod				TYPE:Goods.Alchemical.Consumable.LightSource	COST:2	WT:1		SOURCEPAGE:Equipment	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|60 ft.	QUALITY:Duration|6 hr.
+Tanglefoot Bag			TYPE:Goods.Alchemical.Consumable			COST:50	WT:4		SOURCEPAGE:Equipment
+Thunderstone			TYPE:Goods.Alchemical.Consumable			COST:30	WT:1		SOURCEPAGE:Equipment
+Tindertwig				TYPE:Goods.Alchemical.Consumable			COST:1	WT:0		SOURCEPAGE:Equipment
+
+###Block:Clothing
+# Equipment Name		Output Name				Type							Cost		Weight	Source Page			Special Property
+Outfit (Artisan's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:1	WT:4		SOURCEPAGE:Equipment
+Vestments (Cleric's)	OUTPUTNAME:[NAME] Vestments	TYPE:Goods.Shirt.Resizable			COST:5	WT:6		SOURCEPAGE:Equipment
+Outfit (Cold Weather)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable			COST:8	WT:7		SOURCEPAGE:Equipment	SPROP: +5 circumstance bonus on Fort saves vs cold
+Outfit (Courtier's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable			COST:30	WT:6		SOURCEPAGE:Equipment
+Outfit (Entertainer's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:3	WT:4		SOURCEPAGE:Equipment
+Outfit (Explorer's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:10	WT:8		SOURCEPAGE:Equipment
+Outfit (Monk's)		OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:5	WT:2		SOURCEPAGE:Equipment
+Outfit (Noble's)		OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable			COST:75	WT:10		SOURCEPAGE:Equipment
+Outfit (Peasant's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:0.1	WT:2		SOURCEPAGE:Equipment
+Outfit (Royal)		OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable			COST:200	WT:15		SOURCEPAGE:Equipment
+Outfit (Scholar's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:5	WT:6		SOURCEPAGE:Equipment
+Outfit (Traveler's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:1	WT:5		SOURCEPAGE:Equipment
+
+###Block:Consumables
+# Equipment Name		Type							Cost		Weight	Source Page
+Ale (Gallon)		TYPE:Goods.Liquid.Food				COST:0.2	WT:8		SOURCEPAGE:Equipment
+Ale (Mug)			TYPE:Goods.Food					COST:0.04	WT:1		SOURCEPAGE:Equipment
+Banquet (Per Person)	TYPE:Goods.Food					COST:10			SOURCEPAGE:Equipment
+Bread (Loaf)		TYPE:Goods.Food.Resizable.Consumable	COST:0.02	WT:0.5	SOURCEPAGE:Equipment
+Cheese (Hunk)		TYPE:Goods.Food.Resizable.Consumable	COST:0.1	WT:0.5	SOURCEPAGE:Equipment
+Inn (Good/Per Day)	TYPE:Service.Lodging				COST:2			SOURCEPAGE:Equipment
+Inn (Common/Per Day)	TYPE:Service.Lodging				COST:0.5			SOURCEPAGE:Equipment
+Inn (Poor/Per Day)	TYPE:Service.Lodging				COST:0.2			SOURCEPAGE:Equipment
+Meals (Good/Per Day)	TYPE:Goods.Food.Resizable			COST:0.5			SOURCEPAGE:Equipment
+Meals (Common/Per Day)	TYPE:Goods.Food.Resizable			COST:0.3			SOURCEPAGE:Equipment
+Meals (Poor/Per Day)	TYPE:Goods.Food.Resizable			COST:0.1			SOURCEPAGE:Equipment
+Meat (Chunk)		TYPE:Goods.Food.Consumable			COST:0.3	WT:0.5	SOURCEPAGE:Equipment
+Wine (Common/Pitcher)	TYPE:Goods.Food					COST:0.2	WT:6		SOURCEPAGE:Equipment
+Wine (Fine/Bottle)	TYPE:Goods.Food.Consumable			COST:10	WT:1.5	SOURCEPAGE:Equipment
+Water (Pint)		TYPE:Goods.Liquid.Food.Resizable		COST:0	WT:1.00	SOURCEPAGE:Equipment
+
+###Block:Goods
+# Equipment Name			Type								Contains									Cost		Weight	Source Page			Bonus to skill					Quality and value
+Backpack				TYPE:Goods.Container.General.Resizable		CONTAINS:UNLIM|Any							COST:2	WT:2		SOURCEPAGE:Equipment
+Barrel				TYPE:Goods.Container.General				CONTAINS:UNLIM|Any							COST:2	WT:30		SOURCEPAGE:Equipment
+Basket				TYPE:Goods.Container.General				CONTAINS:UNLIM|Any							COST:0.4	WT:1		SOURCEPAGE:Equipment
+Bedroll				TYPE:Goods.General.Resizable														COST:0.1	WT:5		SOURCEPAGE:Equipment
+Bell					TYPE:Goods.General															COST:1	WT:0		SOURCEPAGE:Equipment
+Blanket (Winter)			TYPE:Goods.General.Resizable														COST:0.5	WT:3		SOURCEPAGE:Equipment
+Block and Tackle			TYPE:Goods.General															COST:5	WT:5		SOURCEPAGE:Equipment
+Bottle (Glass/Wine)		TYPE:Goods.Container.General.Resizable		CONTAINS:1.5|Liquid=3							COST:2	WT:0		SOURCEPAGE:Equipment
+Bucket				TYPE:Goods.Container.General				CONTAINS:UNLIM|Any							COST:0.5	WT:2		SOURCEPAGE:Equipment
+Caltrops				TYPE:Goods.General															COST:1	WT:2		SOURCEPAGE:Equipment
+Candle				TYPE:Goods.General.Consumable.LightSource												COST:0.01	WT:0		SOURCEPAGE:Equipment								QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|1 hr.
+Canvas (Sq. Yd.)			TYPE:Goods.General															COST:0.1	WT:1		SOURCEPAGE:Equipment
+Case (Map or Scroll)		TYPE:Goods.Container.General				CONTAINS:UNLIM|Total=10|Paper=10|Documents=10|Scroll=10	COST:1	WT:0.5	SOURCEPAGE:Equipment
+Chain (10 Ft.)			TYPE:Goods.General															COST:30	WT:2		SOURCEPAGE:Equipment
+Chalk (1 piece)			TYPE:Goods.General															COST:0.01	WT:0		SOURCEPAGE:Equipment
+Chest					TYPE:Goods.Container.General				CONTAINS:UNLIM|Any							COST:2	WT:25		SOURCEPAGE:Equipment
+Crowbar				TYPE:Goods.General															COST:2	WT:5		SOURCEPAGE:Equipment
+Firewood (Per Day)		TYPE:Goods.General															COST:0.01	WT:20		SOURCEPAGE:Equipment
+Fishhook				TYPE:Goods.General															COST:0.1	WT:0		SOURCEPAGE:Equipment
+Fishing Net (25 Sq. Ft.)	TYPE:Goods.General															COST:4	WT:5		SOURCEPAGE:Equipment
+Flask (Empty)			TYPE:Goods.Container.General.Flask			CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1			COST:0.03	WT:1.5	SOURCEPAGE:Equipment
+Flint and Steel			TYPE:Goods.General															COST:1	WT:0		SOURCEPAGE:Equipment
+Grappling Hook			TYPE:Goods.General															COST:1	WT:4		SOURCEPAGE:Equipment
+Hammer				TYPE:Goods.General															COST:0.5	WT:2		SOURCEPAGE:Equipment
+Ink (1 Oz. Vial)			TYPE:Goods.General.Writing.Liquid.Vial												COST:8	WT:0		SOURCEPAGE:Equipment
+Ink (1 Oz. Vial/Other Colors)	TYPE:Goods.General.Writing.Liquid.Vial												COST:16	WT:0		SOURCEPAGE:Equipment
+Inkpen				TYPE:Goods.General.Writing														COST:0.1	WT:0		SOURCEPAGE:Equipment
+Jug (Clay)				TYPE:Goods.Container.General				CONTAINS:8|Liquid|SpellComponent=1					COST:0.03	WT:9		SOURCEPAGE:Equipment
+Ladder (10 Ft.)			TYPE:Goods.General															COST:0.05	WT:20		SOURCEPAGE:Equipment
+Lamp (Common)			TYPE:Goods.General.LightSource.Container		CONTAINS:1|Liquid=1							COST:0.1	WT:1		SOURCEPAGE:Equipment								QUALITY:Bright Illumination|15 ft.	QUALITY:Shadowy Illumination|30 ft.	QUALITY:Duration|6 hr./pint
+Lantern (Bullseye)		TYPE:Goods.General.LightSource.Container		CONTAINS:1|Liquid=1							COST:12	WT:3		SOURCEPAGE:Equipment								QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone	QUALITY:Duration|6 hr./pint
+Lantern (Hooded)			TYPE:Goods.General.LightSource.Container		CONTAINS:1|Liquid=1							COST:7	WT:2		SOURCEPAGE:Equipment								QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|60 ft.	QUALITY:Duration|6 hr./pint
+Lock (Very Simple)		TYPE:Goods.General															COST:20	WT:1		SOURCEPAGE:Equipment
+Lock (Average)			TYPE:Goods.General															COST:40	WT:1		SOURCEPAGE:Equipment
+Lock (Good)				TYPE:Goods.General															COST:80	WT:1		SOURCEPAGE:Equipment
+Lock (Amazing)			TYPE:Goods.General															COST:150	WT:1		SOURCEPAGE:Equipment
+Manacles (Small)			TYPE:Goods.General															COST:15	WT:2		SOURCEPAGE:Equipment
+Manacles (Medium)			TYPE:Goods.General															COST:15	WT:2		SOURCEPAGE:Equipment
+Manacles (Large)			TYPE:Goods.General															COST:150	WT:8		SOURCEPAGE:Equipment
+Manacles (Huge)			TYPE:Goods.General															COST:1500	WT:32		SOURCEPAGE:Equipment
+Manacles (Masterwork/Small)	TYPE:Goods.General.Masterwork														COST:50	WT:2		SOURCEPAGE:Equipment
+Manacles (Masterwork/Medium)	TYPE:Goods.General.Masterwork														COST:50	WT:2		SOURCEPAGE:Equipment
+Manacles (Masterwork/Large)	TYPE:Goods.General.Masterwork														COST:500	WT:8		SOURCEPAGE:Equipment
+Manacles (Masterwork/Huge)	TYPE:Goods.General.Masterwork														COST:5000	WT:32		SOURCEPAGE:Equipment
+Mirror (Small/Steel)		TYPE:Goods.General															COST:10	WT:0.5	SOURCEPAGE:Equipment
+Mug or Tankard (Clay)		TYPE:Goods.Container.General				CONTAINS:1|Liquid								COST:0.02	WT:1		SOURCEPAGE:Equipment
+Oil (1 Pt. Flask)			TYPE:Goods.General.Liquid.Flask.Consumable											COST:0.1	WT:1		SOURCEPAGE:Equipment
+Paper (Sheet)			TYPE:Goods.General.Writing.Documents												COST:0.4	WT:0		SOURCEPAGE:Equipment
+Parchment (Sheet)			TYPE:Goods.General.Writing.Documents												COST:0.2	WT:0		SOURCEPAGE:Equipment
+Pick (Miner's)			TYPE:Goods.General															COST:3	WT:10		SOURCEPAGE:Equipment
+Pitcher (Clay)			TYPE:Goods.Container.General				CONTAINS:4|Liquid								COST:0.02	WT:5		SOURCEPAGE:Equipment
+Piton					TYPE:Goods.General															COST:0.1	WT:0.5	SOURCEPAGE:Equipment
+Pole (10 Ft.)			TYPE:Goods.General															COST:0.2	WT:8		SOURCEPAGE:Equipment
+Pot (Iron)				TYPE:Goods.Container.General				CONTAINS:UNLIM|Any							COST:0.5	WT:10		SOURCEPAGE:Equipment
+Pouch (Belt)			TYPE:Goods.Container.General.Resizable		CONTAINS:UNLIM|Any							COST:1	WT:0.5	SOURCEPAGE:Equipment
+Ram (Portable)			TYPE:Goods.General															COST:10	WT:20		SOURCEPAGE:Equipment
+Rations (Trail/Per Day)		TYPE:Goods.Food.Resizable.Consumable												COST:0.5	WT:1		SOURCEPAGE:Equipment
+Rope (Hempen/50 Ft.)		TYPE:Goods.General															COST:1	WT:10		SOURCEPAGE:Equipment
+Rope (Silk/50 Ft.)		TYPE:Goods.General															COST:10	WT:5		SOURCEPAGE:Equipment	BONUS:SKILL|Use Rope|2|TYPE=Circumstance
+Sack					TYPE:Goods.Container.General.Resizable		CONTAINS:UNLIM|Any							COST:0.1	WT:0.5	SOURCEPAGE:Equipment
+Sealing Wax				TYPE:Goods.General.Writing														COST:1	WT:1		SOURCEPAGE:Equipment
+Sewing Needle			TYPE:Goods.General															COST:0.5			SOURCEPAGE:Equipment
+Signal Whistle			TYPE:Goods.General															COST:0.8			SOURCEPAGE:Equipment
+Signet Ring				TYPE:Goods.General.Ring															COST:5			SOURCEPAGE:Equipment
+Sledge				TYPE:Goods.General															COST:1	WT:10		SOURCEPAGE:Equipment
+Soap (Per Lb.)			TYPE:Goods.General															COST:0.5	WT:1		SOURCEPAGE:Equipment
+Spade or Shovel			TYPE:Goods.General															COST:2	WT:8		SOURCEPAGE:Equipment
+Spyglass				TYPE:Goods.General															COST:1000	WT:1		SOURCEPAGE:Equipment
+Tent					TYPE:Goods.General.Resizable														COST:10	WT:20		SOURCEPAGE:Equipment
+Torch					TYPE:Goods.General.Consumable.LightSource												COST:0.01	WT:1		SOURCEPAGE:Equipment								QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|1 hr.
+Vial					TYPE:Goods.Container.General.Vial			CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1|Potion=1	COST:1	WT:0.1	SOURCEPAGE:Equipment
+Waterskin				TYPE:Goods.Container.General				CONTAINS:4|Liquid=4							COST:1	WT:0		SOURCEPAGE:Equipment
+Waterskin (Filled)		TYPE:Goods.General.Resizable														COST:1	WT:4		SOURCEPAGE:Equipment
+Whetstone				TYPE:Goods.General															COST:0.02	WT:1		SOURCEPAGE:Equipment
+
+###Block:Mounts and Related Gear
+# Barding is in armor .LST file
+# Equipment Name			Type								Contains			Cost		Weight	Size		Source Page			Special Property
+Bit and Bridle			TYPE:Goods.Mount.Resizable								COST:2	WT:1				SOURCEPAGE:Equipment
+Dog (Guard)				TYPE:Mount.Goods.Container				CONTAINS:*300|Any		COST:25	WT:0				SOURCEPAGE:Equipment
+Dog (Riding)			TYPE:Mount.Goods.Transportation.Container		CONTAINS:*300|Any		COST:150	WT:0		SIZE:M	SOURCEPAGE:Equipment
+Donkey				TYPE:Mount.Goods.Transportation.Container		CONTAINS:*690|Any		COST:8	WT:0		SIZE:M	SOURCEPAGE:Equipment
+Mule					TYPE:Mount.Goods.Transportation.Container		CONTAINS:*690|Any		COST:8	WT:0		SIZE:L	SOURCEPAGE:Equipment
+Feed (Per Day)			TYPE:Goods.Mount.Consumable								COST:0.05	WT:10				SOURCEPAGE:Equipment
+Horse (Heavy)			TYPE:Mount.Goods.Transportation.Container		CONTAINS:*600|Any		COST:200	WT:0		SIZE:L	SOURCEPAGE:Equipment
+Horse (Light)			TYPE:Mount.Goods.Transportation.Container		CONTAINS:*450|Any		COST:75	WT:0		SIZE:L	SOURCEPAGE:Equipment
+Warhorse (Heavy)			TYPE:Mount.Goods.Transportation.Container		CONTAINS:*900|Any		COST:400	WT:0		SIZE:L	SOURCEPAGE:Equipment
+Warhorse (Light)			TYPE:Mount.Goods.Transportation.Container		CONTAINS:*690|Any		COST:150	WT:0		SIZE:L	SOURCEPAGE:Equipment
+Pony					TYPE:Mount.Goods.Transportation.Container		CONTAINS:*225|Any		COST:30	WT:0		SIZE:M	SOURCEPAGE:Equipment
+Warpony				TYPE:Mount.Goods.Transportation.Container		CONTAINS:*300|Any		COST:100	WT:0		SIZE:M	SOURCEPAGE:Equipment
+Saddle (Military)			TYPE:Goods.Mount.Saddle.Military.Resizable					COST:20	WT:30				SOURCEPAGE:Equipment	SPROP:+2 circumstance bonus on Ride checks related to staying in the saddle
+Saddle (Pack)			TYPE:Goods.Container.Mount.Saddle.Resizable	CONTAINS:UNLIM|Any	COST:5	WT:15				SOURCEPAGE:Equipment
+Saddle (Riding)			TYPE:Goods.Mount.Saddle.Resizable							COST:10	WT:25				SOURCEPAGE:Equipment
+Saddle (Exotic Military)	TYPE:Goods.Mount.Saddle.Military.Resizable					COST:60	WT:40				SOURCEPAGE:Equipment	SPROP:+2 circumstance bonus on Ride checks related to staying in the saddle
+Saddle (Exotic Pack)		TYPE:Goods.Container.Mount.Saddle.Resizable	CONTAINS:UNLIM|Any	COST:15	WT:20				SOURCEPAGE:Equipment
+Saddle (Exotic Riding)		TYPE:Goods.Mount.Saddle.Resizable							COST:30	WT:30				SOURCEPAGE:Equipment
+Saddlebags				TYPE:Goods.Container.Mount.Resizable		CONTAINS:UNLIM|Any	COST:4	WT:8				SOURCEPAGE:Equipment
+Stabling (Per Day)		TYPE:Goods.Mount										COST:0.5	WT:0				SOURCEPAGE:Equipment
+
+###Block:Tools
+# Equipment Name				Type									Number of Pages	Page Usage				Cost		Weight	Modifier					Source Page			Bonus to skill																					Special Property
+Alchemist's Lab				TYPE:Goods.Tools.Artisan													COST:500	WT:40								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance
+Artisan's Tools (Armorsmithing)	TYPE:Goods.Tools.Artisan.ArmorsmithingTools										COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Armorsmithing)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Bowmaking)		TYPE:Goods.Tools.Artisan.BowmakingTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Bowmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Blacksmithing)	TYPE:Goods.Tools.Artisan.BlacksmithingTools										COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Blacksmithing)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Carpentry)		TYPE:Goods.Tools.Artisan.CarpentryTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Carpentry)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Leatherworking)	TYPE:Goods.Tools.Artisan.LeatherworkingTools										COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Leatherworking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Painting)		TYPE:Goods.Tools.Artisan.PaintingTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Painting)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Pottery)		TYPE:Goods.Tools.Artisan.PotteryTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Pottery)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Sculpting)		TYPE:Goods.Tools.Artisan.SculptingTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Sculpting)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Shipmaking)		TYPE:Goods.Tools.Artisan.ShipmakingTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Shipmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Stonemasonry)	TYPE:Goods.Tools.Artisan.StonemasonryTools										COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Stonemasonry)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Trapmaking)		TYPE:Goods.Tools.Artisan.TrapmakingTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Trapmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Weaponsmithing)	TYPE:Goods.Tools.Artisan.WeaponsmithingTools										COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Weaponsmithing)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Artisan's Tools (Woodworking)		TYPE:Goods.Tools.Artisan.WoodworkingTools											COST:5	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Craft (Woodworking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Climber's Kit				TYPE:Goods.Tools.Masterwork.Resizable											COST:80	WT:5								SOURCEPAGE:Equipment	BONUS:SKILL|Climb|2|TYPE=Circumstance
+Disguise Kit				TYPE:Goods.Tools.Masterwork.Resizable.Consumable									COST:50	WT:8								SOURCEPAGE:Equipment	BONUS:SKILL|Disguise|2|TYPE=Circumstance
+Healer's Kit				TYPE:Goods.Tools.Masterwork													COST:50	WT:1		EQMOD:CHARGED_ITEM_10|CHARGES[10]	SOURCEPAGE:Equipment	BONUS:SKILL|Heal|2|TYPE=Circumstance
+Hourglass					TYPE:Goods.Tools															COST:25	WT:1								SOURCEPAGE:Equipment
+Holly and Mistletoe			TYPE:Goods.Tools.DivineFocus													COST:0	WT:0								SOURCEPAGE:Equipment
+Holy Symbol (Wooden)			TYPE:Goods.Tools.DivineFocus													COST:1	WT:0								SOURCEPAGE:Equipment
+Holy Symbol (Silver)			TYPE:Goods.Tools.DivineFocus													COST:25	WT:1								SOURCEPAGE:Equipment
+Magnifying Glass				TYPE:Goods.Tools															COST:100									SOURCEPAGE:Equipment																								SPROP:a +2 circumstance bonus on Appraise checks involving any item that is small or highly detailed.
+Musical Instrument (Bells)		TYPE:Goods.Tools.Instrument.Percussion.Resizable									COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Chime)		TYPE:Goods.Tools.Instrument.Percussion.Resizable									COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Drum)		TYPE:Goods.Tools.Instrument.Percussion.Resizable									COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Gong)		TYPE:Goods.Tools.Instrument.Percussion.Resizable									COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Fiddle)		TYPE:Goods.Tools.Instrument.String.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Harp)		TYPE:Goods.Tools.Instrument.String.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Lute)		TYPE:Goods.Tools.Instrument.String.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Mandolin)		TYPE:Goods.Tools.Instrument.String.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Flute)		TYPE:Goods.Tools.Instrument.Wind.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Pan Pipes)	TYPE:Goods.Tools.Instrument.Wind.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Recorder)		TYPE:Goods.Tools.Instrument.Wind.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Shawm)		TYPE:Goods.Tools.Instrument.Wind.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Musical Instrument (Trumpet)		TYPE:Goods.Tools.Instrument.Wind.Resizable										COST:5	WT:3								SOURCEPAGE:Equipment	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Scale (Merchant's)			TYPE:Goods.Tools															COST:2	WT:1								SOURCEPAGE:Equipment																								SPROP:+2 to appraise items valued by weight
+Spell Component Pouch			TYPE:Goods.Tools															COST:5	WT:2								SOURCEPAGE:Equipment
+Spellbook (Wizard's/Blank)		TYPE:Goods.Tools.Spellbook					NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)	COST:15	WT:3								SOURCEPAGE:Equipment
+Thieves' Tools				TYPE:Goods.Tools.Resizable.Thief.ThiefTools										COST:30	WT:1								SOURCEPAGE:Equipment	BONUS:SKILL|Disable Device,Open Lock|0|TYPE=Circumstance	BONUS:SKILL|Disable Device,Open Lock|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Waterclock					TYPE:Goods.Tools.Resizable													COST:1000	WT:200							SOURCEPAGE:Equipment
+
+
+# From "Wealth other than coins", sorted by value
+###Block:Trade Goods
+# Equipment Name		Type			Cost		Weight	Source Page
+Wheat (Per Lb.)		TYPE:Goods.Trade	COST:0.01	WT:1		SOURCEPAGE:Equipment
+Flour (Per Lb.)		TYPE:Goods.Trade	COST:0.02	WT:1		SOURCEPAGE:Equipment
+Chicken			TYPE:Goods.Trade	COST:0.02			SOURCEPAGE:Equipment
+Iron (Per Lb.)		TYPE:Goods.Trade	COST:0.1	WT:1		SOURCEPAGE:Equipment
+Tobacco (Per Lb.)		TYPE:Goods.Trade	COST:0.5	WT:1		SOURCEPAGE:Equipment
+Copper (Per Lb.)		TYPE:Goods.Trade	COST:0.5	WT:1		SOURCEPAGE:Equipment
+Cinnamon (Per Lb.)	TYPE:Goods.Trade	COST:1	WT:1		SOURCEPAGE:Equipment
+Goat				TYPE:Goods.Trade	COST:1			SOURCEPAGE:Equipment
+Ginger (Per Lb.)		TYPE:Goods.Trade	COST:2	WT:1		SOURCEPAGE:Equipment
+Pepper (Per Lb.)		TYPE:Goods.Trade	COST:2	WT:1		SOURCEPAGE:Equipment
+Sheep				TYPE:Goods.Trade	COST:2			SOURCEPAGE:Equipment
+Pig				TYPE:Goods.Trade	COST:3			SOURCEPAGE:Equipment
+Linen (sq. yard)		TYPE:Goods.Trade	COST:4	WT:1		SOURCEPAGE:Equipment
+Salt (Per Lb.)		TYPE:Goods.Trade	COST:5	WT:1		SOURCEPAGE:Equipment
+Silver (Per Lb.)		TYPE:Goods.Trade	COST:5	WT:1		SOURCEPAGE:Equipment
+Silk (sq. yard)		TYPE:Goods.Trade	COST:10	WT:0.5	SOURCEPAGE:Equipment
+Cow				TYPE:Goods.Trade	COST:10			SOURCEPAGE:Equipment
+Saffron (Per Lb.)		TYPE:Goods.Trade	COST:15	WT:1		SOURCEPAGE:Equipment
+Cloves (Per Lb.)		TYPE:Goods.Trade	COST:15	WT:1		SOURCEPAGE:Equipment
+Ox				TYPE:Goods.Trade	COST:15			SOURCEPAGE:Equipment
+Gold (Per Lb.)		TYPE:Goods.Trade	COST:50	WT:1		SOURCEPAGE:Equipment
+Platinum (Per Lb.)	TYPE:Goods.Trade	COST:500	WT:1		SOURCEPAGE:Equipment
+
+###Block: Transportation
+# Equipment Name	Type							Contains			Cost		Weight	Source Page
+Carriage		TYPE:Goods.Transportation.Container		CONTAINS:3120|Any		COST:100	WT:600	SOURCEPAGE:Equipment
+Cart			TYPE:Goods.Transportation.Container		CONTAINS:3120|Any		COST:15	WT:200	SOURCEPAGE:Equipment
+Galley		TYPE:Goods.Transportation.Ships.Container	CONTAINS:300000|Any	COST:30000	WT:0		SOURCEPAGE:Equipment
+Keelboat		TYPE:Goods.Transportation.Ships.Container	CONTAINS:100000|Any	COST:3000	WT:0		SOURCEPAGE:Equipment
+Longship		TYPE:Goods.Transportation.Ships.Container	CONTAINS:100000|Any	COST:10000	WT:0		SOURCEPAGE:Equipment
+Rowboat		TYPE:Goods.Transportation.Ships.Container	CONTAINS:600|Any		COST:50	WT:100	SOURCEPAGE:Equipment
+Oar			TYPE:Goods.Transportation.Ships.Extra					COST:2	WT:10		SOURCEPAGE:Equipment
+Sailing Ship	TYPE:Goods.Transportation.Ships.Container	CONTAINS:300000|Any	COST:10000	WT:0		SOURCEPAGE:Equipment
+Sled			TYPE:Goods.Transportation.Container		CONTAINS:2000|Any		COST:20	WT:300	SOURCEPAGE:Equipment
+Wagon			TYPE:Goods.Transportation.Container		CONTAINS:4000|Any		COST:35	WT:400	SOURCEPAGE:Equipment
+Warship		TYPE:Goods.Transportation.Ships.Container	CONTAINS:300000|Any	COST:25000	WT:0		SOURCEPAGE:Equipment
+
+
+###Block: Spellcasting and services
+# Equipment Name			Type					Cost		Source Page
+Coach Cab (Per Mile)		TYPE:Service.Transportation	COST:0.03	SOURCEPAGE:Equipment
+Hireling (Trained)		TYPE:Service			COST:0.3	SOURCEPAGE:Equipment
+Hireling (Untrained)		TYPE:Service			COST:0.1	SOURCEPAGE:Equipment
+Messenger (Per Mile)		TYPE:Service			COST:0.02	SOURCEPAGE:Equipment
+Ship's Passage (Per Mile)	TYPE:Service.Transportation	COST:0.1	SOURCEPAGE:Equipment
+Road or Gate Toll			TYPE:Service.Transportation	COST:0.01	SOURCEPAGE:Equipment
+
+###Block: Siege Engines
+# Equipment Name	Type				Cost		Source Page					Special Property
+Catapult (Heavy)	TYPE:Goods.SiegeEngine	COST:800	SOURCEPAGE:WildernessandEnvironment	SPROP:200' Range, 6d6 damage, 4 man crew
+Catapult (Light)	TYPE:Goods.SiegeEngine	COST:550	SOURCEPAGE:WildernessandEnvironment	SPROP:150' Range, 4d6 damage, 2 man crew
+Ballista		TYPE:Goods.SiegeEngine	COST:500	SOURCEPAGE:WildernessandEnvironment	SPROP:120' Range, 3d8 damage, 19-20 Critical, 1 man crew
+Ram			TYPE:Goods.SiegeEngine	COST:1000	SOURCEPAGE:WildernessandEnvironment	SPROP:3d6 damage, 10 man crew
+Siege Tower		TYPE:Goods.SiegeEngine	COST:2000	SOURCEPAGE:WildernessandEnvironment	SPROP:20 man crew
+
+
+###Block: Golems and other constructs and related equipment
+# Equipment Name			Output Name				Type					Contains			Cost			Weight	Source Page
+Golem (Clay)			OUTPUTNAME: [Name] Golem	TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:40000		WT:600	SOURCEPAGE:MonstersG
+Golem (Flesh)			OUTPUTNAME: [Name] Golem	TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:20000		WT:500	SOURCEPAGE:MonstersG
+Golem (Iron)			OUTPUTNAME: [Name] Golem	TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:150000		WT:5000	SOURCEPAGE:MonstersG
+Golem (Stone)			OUTPUTNAME: [Name] Golem	TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:90000		WT:2000	SOURCEPAGE:MonstersG
+Golem (Stone/Greater)		OUTPUTNAME: [Name] Golem	TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:196000		WT:32000	SOURCEPAGE:MonstersG
+Golem (Mithral)			OUTPUTNAME: [Name] Golem	TYPE:Construct.Epic.Container	CONTAINS:UNLIM|Any	COST:490000		WT:8500	SOURCEPAGE:EpicMonsters(G-W)
+Golem (Adamantine)		OUTPUTNAME: [Name] Golem	TYPE:Construct.Epic.Container	CONTAINS:UNLIM|Any	COST:950000		WT:45000	SOURCEPAGE:EpicMonsters(G-W)
+Colossus (Flesh)			OUTPUTNAME: [Name] Colossus	TYPE:Construct.Epic.Container	CONTAINS:UNLIM|Any	COST:1320000	WT:40500	SOURCEPAGE:EpicMonsters(A-E)
+Colossus (Stone)			OUTPUTNAME: [Name] Colossus	TYPE:Construct.Epic.Container	CONTAINS:UNLIM|Any	COST:1320000	WT:250000	SOURCEPAGE:EpicMonsters(A-E)
+Colossus (Iron)			OUTPUTNAME: [Name] Colossus	TYPE:Construct.Epic.Container	CONTAINS:UNLIM|Any	COST:1799000	WT:150000	SOURCEPAGE:EpicMonsters(A-E)
+Shield Guardian								TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:120000		WT:1200	SOURCEPAGE:MonstersS
+Amulet (Shield Guardian)						TYPE:Magic.Amulet.Construct					COST:20000		WT:0		SOURCEPAGE:MonstersS
+Homunculus									TYPE:Construct.Container	CONTAINS:UNLIM|Any	COST:0		WT:0		SOURCEPAGE:MonstersH-I
+Laboratory (Homunculus)							TYPE:Goods.Tools.Construct					COST:500		WT:40		SOURCEPAGE:MonstersH-I
+Laboratory (Shield Guardian)						TYPE:Goods.Tools.Construct					COST:500		WT:40		SOURCEPAGE:MonstersS
+
+# Each contruct-related item was given a newly-made Construct type.
+# The names could include the HD of the creature since that determines its size and part of its cost. An equipment modification somehow?
+# The COST of constructs, where not provided directly (i.e. Mithral and Adamantine Golems and the Colossuses), are calculated usingly the generally-close formula of twice the total of the creation cost minus the stated materials' costs.
+# The Homunculus has no cost as it is "never sold". No weight is given, but it would be approximately 1 to 8 lbs. based on its "Tiny" size. Maybe just assign 4.5 lbs. (the ave.) or some figure?
+# The weight of the Mithral Golem is as if "8 1/2 tons of pure iron" was "polymorphed into mithral" weighing half as much.
+# The weight of the Stone Colusses is calculated as a 2/3 ratio after the 2/3 ratio of body weight to block weight for the Stone Golem.
+# The weight of the Flesh Colusses is calculated as the combined average weight of 300 humans (135 lbs. each), based on the construction details.
+# The weight of the labs was made the same as the Alchemist's lab, to which they were described as being similar.

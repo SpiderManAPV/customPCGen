@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.bold {
+	font-weight: bold;
+}
+.fixedfont {
+	font-family: courier new, Courier, monospace;
+}
+.font12 {
+	font-size: large;
+}
+.font8 {
+	font-size: small;
+}
+.font6 {
+	font-size: x-small;
+}
+.font5 {
+	font-size: xx-small;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.top {
+	vertical-align: top;
+}
+.bottom { 
+	vertical-align:bottom;
+}
+.topline {
+	border-top-width: 1px;
+	border-top: 1pt solid black;
+}
+table.noborder {
+	border: none;
+}
+table.padded {
+	padding: 1em;
+}
+.border2 {
+	border-width:2px;
+}
+.border1 {
+	border-width:1px;
+}

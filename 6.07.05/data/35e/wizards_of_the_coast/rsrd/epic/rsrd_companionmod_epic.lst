@@ -1,0 +1,60 @@
+# CVS $Revision$ $Author$ -- Wed Dec  3 12:59:23 2014 -- reformated by prettylst.pl v1.51 (build 25490)
+SOURCELONG:Revised (v.3.5) System Reference Document	SOURCESHORT:RSRD	SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35	SOURCEDATE:2000-01
+
+#Block: Epic Familiar Progression
+# Class of the Master	Type			Bonus Ability Pool
+FOLLOWER:FamiliarLVL=21	TYPE:Familiar	BONUS:ABILITYPOOL|Familiar Spell Choice|(11-mastervar("FamiliarLVL"))/10
+
+###Block: Epic Special Mount Progression	CODE FEATURE: HD to take var / mastervar
+# Class of the Master		Type				Hit Dice	Define Stat										Combat bonus												Stat bonus
+FOLLOWER:SpecialMountLVL=25	TYPE:Special Mount	HD:2		DEFINESTAT:MINVALUE|INT|9+((20-mastervar("SpecialMountLVL"))/5)	BONUS:COMBAT|AC|2*((20-mastervar("SpecialMountLVL"))/5)|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|(20-mastervar("SpecialMountLVL"))/5
+FOLLOWER:SpecialMountLVL=30	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=35	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=40	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=45	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=50	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=55	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=60	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=65	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=70	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=75	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=80	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=85	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=90	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=95	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=100	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=105	TYPE:Special Mount	HD:2
+FOLLOWER:SpecialMountLVL=110	TYPE:Special Mount	HD:2
+
+###Block: Epic Animal Companion Progression
+# Class of the Master			Type				Hit Dice	Stat bonus																	Modify VAR
+FOLLOWER:AnimalCompanionLVL=23	TYPE:Animal Companion	HD:2		BONUS:STAT|STR|(20-mastervar("AnimalCompanionLVL"))/3	BONUS:STAT|DEX|(20-mastervar("AnimalCompanionLVL"))/3	BONUS:VAR|BonusTricks|(20-mastervar("AnimalCompanionLVL"))/3
+FOLLOWER:AnimalCompanionLVL=26	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=29	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=32	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=35	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=38	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=41	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=44	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=47	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=50	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=53	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=56	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=59	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=62	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=65	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=68	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=71	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=74	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=77	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=80	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=83	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=86	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=89	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=92	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=95	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=98	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=101	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=104	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=107	TYPE:Animal Companion	HD:2
+FOLLOWER:AnimalCompanionLVL=110	TYPE:Animal Companion	HD:2

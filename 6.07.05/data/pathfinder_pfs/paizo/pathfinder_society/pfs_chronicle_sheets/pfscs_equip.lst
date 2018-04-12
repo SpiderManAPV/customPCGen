@@ -1,0 +1,154 @@
+# CVS $Revision: 21789 $ $Author: mjmeans $ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Pathfinder Society Chronicle Sheets	SOURCESHORT:PFSCS	SOURCEWEB:http://www.paizo.com	SOURCEDATE:2014-08
+
+# Equipment Name														Output Name				Type							Cost		Weight	Required Ability										Modifier									Requires Modification?	Source, Long Desc.						Source, Short Desc.	Source Page		Bonus Ability Pool				Combat bonus			Save bonus					Bonus to skill						Clear Special Property	Special Property
+
+#
+# PFS #8-05
+#
+
+Poison (Dusk Agate Extract)				OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable.PFS	COST:75	WT:0		SOURCEPAGE:p.558	SPROP:Contact; Fort DC 13; Freq 1 rnd (2); Effect unconsciousness for 1 min/1 Wis dmg; Cure 1 save	PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ S08-05
+
+#
+# PFS Module PZO9521
+#
+
+Pnakotic Manuscripts																		TYPE:General.PFS					COST:500	WT:0		PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9521																			SOURCELONG:PFS Module Carrion Hill																																			SPROP:+4 circumstance bonus on all Knowledge [arcana] or Spellcraft checks made to identify spells or magical effects of the conjuration school and Knowledge [religion] checks related to the Old Cults when referring this tome
+Violet venom																			TYPE:Poison.Consumable.PFS			COST:800	WT:0		PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9521																			SOURCELONG:PFS Module Carrion Hill																																			SPROP:contact; DC 13; 1/minute for 6 minutes; 1d2 Str and 1d2 Con; 1 save; limit 1 dose
+
+#
+# PFS Module PZO9522
+#
+
+Collar of the inferno																		TYPE:Magic.Wonderous.Consumable.Neck.PFS	COST:2250	WT:0		PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9522																			SOURCELONG:PFS Module Masks of the Living God																																	SPROP:single-use item, summons 1d3 hell hounds as if using summon monster V
+Dragon's Breath poison																		TYPE:Poison.Consumable.PFS			COST:175	WT:0		PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9522																			SOURCELONG:PFS Module Masks of the Living God																																	SPROP:poison-ingested; DC 20; onset 5 minutes; 1/round for 6 rounds; unconsciousness for 10 minutes, duration is cumulative; 2 saves
+
+#
+# PFS Module PZO9522
+#
+
+Mask of fear																			TYPE:Magic.Wonderous.Face.PFS			COST:2500	WT:0		PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9522																			SOURCELONG:PFS Module Masks of the Living God																					BONUS:SKILL|Intimidate|5								SPROP:+5 bonus on Intimidate checks
+
+#
+# PFS Module PZO9523
+#
+
+Staff.COPY=Crook of Cildhureen
+Crook of Cildhureen.MOD																		TYPE:Magic.Wonderous.PFS			COST:16800			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9523															MODS:NO			SOURCELONG:PFS Module Realm of the Fellnight Queen																																SPROP:CL 9th; major image [1], shadow conjuration [2], shadow evocation [3]
+
+#
+# PFS Module PZO9524
+#
+
+Waters of the whispering river																TYPE:Poison.PFS					COST:800			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9524																			SOURCELONG:PFS Module City of Golden Death																																	SPROP:contact; DC 20; onset 1 round; 1/round for 6 rounds; 1d3 Con damage and 1 Con drain; 2 saves
+
+#
+# PFS Module PZO9525
+#
+
+Amulet.COPY=Armillary amulet
+Armillary amulet.MOD																		TYPE:Magic.Wondrous.PFS				COST:2500			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9525															MODS:NO			SOURCELONG:PFS Module From Shore to Sea																						BONUS:SKILL|Spellcraft|5|TYPE.Competence						SPROP:grants a +5 competence bonus on Spellcraft checks
+Potion.COPY=Elixir of true form
+Elixir of true form.MOD																		TYPE:PFS						COST:1600			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9525															MODS:NO			SOURCELONG:PFS Module From Shore to Sea																																		SPROP:removes all curses and transformation effects from the imbiber
+
+#
+# PFS Module PZO9526
+#
+
+Cloak.COPY=Cloak of greater fire resistance
+Cloak of greater fire resistance.MOD															TYPE:Magic.Wondrous.PFS				COST:44000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9526															MODS:NO			SOURCELONG:PFS Module From Shore to Sea																																		SPROP:Grants electricity resistance 30
+Hat of disguise.COPY=Greater hat of disguise
+Greater hat of disguise.MOD																	TYPE:PFS						COST:12000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9526																			SOURCELONG:PFS Module City of the Riven Sky																																	SPROP:functions as a hat of disguise, this garment allows the bearer to cast alter self at will at CL 3rd
+Idol of the eye																			TYPE:Magic.Wondrous.PFS				COST:19000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9526																			SOURCELONG:PFS Module City of the Riven Sky																																	SPROP:once per day the bearer of the idol of the eye can cast augury and divination at CL 9th; also, once per week the bearer may ask one yes-or-no question of idol (as per commune at CL 9th).
+
+#
+# PFS Module PZO9527
+#
+
+Waters of the whispering river																TYPE:Poison.PFS					COST:800			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9527																			SOURCELONG:PFS Module The Witchwar Legacy																																		SPROP:contact; DC 20; onset 1 round; 1/round for 6 rounds; 1d3 Con damage and 1 Con drain; 2 saves
+
+#
+# PFS Module PZO9529
+#
+
+Amulet.COPY=Sihedron medallion
+Sihedron medallion.MOD																		TYPE:Magic.Wondroud.PFS				COST:3800			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9528															MODS:NO			SOURCELONG:PFS Module The Godmouth Heresy																BONUS:SAVE|ALL|1|TYPE=Resistance													SPROP:while worn, a Sihedron medallion grants its wearer a +1 resistance bonus on all saving throws. Once per day, it may be commanded to bestow the effects of false life on the wearer (CL 5th)-these effects end if the medallion is removed. Placed on the neck of a dead body, the Sihedron medallion preserves the body indefinitely with gentle repose.
+Dhat-gunchi paste																			TYPE:Poison.PFS					COST:0			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9529																			SOURCELONG:PFS Module Cult of the Ebon Destroyers																																SPROP:DC 14; 1/round for 4 rounds; 1 Con and 1d2 Wis damage, 1 save
+Shuriken.COPY=Flaming Bracelet Chakrams +1
+Flaming Bracelet Chakrams +1.MOD																TYPE:PFS						COST:8310			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9529					EQMOD:FLAME.PLUS1W											SOURCELONG:PFS Module Cult of the Ebon Destroyers																																SPROP:(cost s/b 8,310 gp) treat as shuriken
+Padma blossom																			TYPE:Magic.Wonderous.Hand.PFS			COST:8000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9529																			SOURCELONG:PFS Module Cult of the Ebon Destroyers																																SPROP:while grasped, a padma blossom grants its holder a +3 competence bonus on concentration checks and suppresses the following on its holder: morale bonuses, fear effects, and the confused, dazed, or stunned conditions. Twice per day, the bearer can cast calm emotions at CL 3rd.
+
+#
+# PFS Module PZO9530
+#
+
+Adella map collection																		TYPE:General.PFS					COST:200			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9530																			SOURCELONG:PFS Module Tomb of the Iron Medusa																																	SPROP:grants a +2 circumstance bonus on Knowledge [geography] checks between Katheer and Oppara, from the Inner Sea to the World's Edge Mountains.
+#ASPECT:SkillBonus|+2 circumstance bonus on Knowledge [geography] checks between Katheer and Oppara, from the Inner Sea to the World's Edge Mountains (PFS Module Tomb of the Iron Medusa).
+Gown of resistance +4																		TYPE:Magic.Wonderous.Body.PFS			COST:16000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9530																			SOURCELONG:PFS Module Tomb of the Iron Medusa															BONUS:SAVE|ALL|4|TYPE=Resistance													SPROP:functions as a cloak of resistance +4 occupying the body item slot
+Tomes of Taldan history																		TYPE:General.PFS					COST:400			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9530																			SOURCELONG:PFS Module Tomb of the Iron Medusa																																	SPROP:grants a +2 circumstance bonus on Knowledge [history] checks regarding Taldor
+#ASPECT:SkillBonus|+2 circumstance bonus on Knowledge [history] checks regarding Taldor.
+
+#
+# PFS Module PZO9533
+#
+
+Ring.COPY=Tax collector's signet ring
+Tax collector's signet ring.MOD																TYPE:Magic.Wonderous.PFS			COST:75			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9533															MODS:NO			SOURCELONG:PFS Module Feast of Ravenmoor																						BONUS:SKILL|Intimidate|2
+#ASPECT:SkillBonus|-2 penalty on Diplomacy checks while in Varisia	SPROP:grants a +2 bonus on Intimidate checks and imparts a -2 penalty on Diplomacy checks while in Varisia
+
+#
+# PFS Module PZO9534
+#
+
+Crimson hood																			TYPE:Poison.PFS					COST:650			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9534																			SOURCELONG:PFS Module The Ruby Phoenix Tournament																																SPROP:ingested; DC 16; onset 4 hours; 1/hour for 24 hours; 1d2 Dex and 1d2 Str damage; 2 saves
+
+#
+# PFS Module PZO9535
+#
+
+Sojourner in the Sunless Wastes																TYPE:Magic.Wonderous.PFS			COST:200			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9535																			SOURCELONG:PFS Module The Midnight Mirror																																		SPROP:grants a +4 circumstance bonus on Knowledge [planes] checks relating to the Shadow Plane and its inhabitants. Using the book in this manner takes 1 minute)
+
+#
+# PFS Module PZO9537
+#
+
+Sword (Bastard).COPY=Iron Lash
+Iron Lash.MOD																			TYPE:Magic.Wonderous.PFS			COST:90335			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9537					EQMOD:C_IRON.PLUS2W.UNHOLY										SOURCELONG:PFS Module The Moonscar																																			SPROP:(cost should be 90,335) This +2 cold iron bastard sword becomes a +2 unholy cold iron bastard sword in the hands of an antipaladin sworn to the demon lord Nocticula. In the hands of a good creature, Iron Lash bestows one permanent negative level as though it were unholy while granting none of the associated benefits of the unholy special ability.&nl;Once per day, the wielder of this sword can cast finger of death with a range of 60 feet, dealing 150 points of damage on a successful hit. If the target succeeds at a DC 20 Fortitude saving throw, the attack instead deals 3d6+15 points of damage. This is a death effect.
+
+#
+# PFS Module PZO9538
+#
+
+Scarf of the Suggestive Dance																	TYPE:Magic.Wonderous.PFS			COST:3000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9538																			SOURCELONG:PFS Module Muerder's Mark																						BONUS:SKILL|Perform (Dance)|5|TYPE.Competance					SPROP:This silk scarf is embroidered with all the colors of flame and tasseled in tiny beads. When wrapped around the hips, it grants the wearer a +5 competence bonus on Perform (dance) checks. The scarf adds 1 to the saving throw DC of the wearer's fascinate and suggestion bardic performances.
+
+#
+# unknown
+#
+
+Dream toxin																				TYPE:Poison.PFS					COST:2500			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9541																			SOURCELONG:PFS Module Doom Comes to Dustpawn																																	SPROP:ingested or injury; DC 20; 1/hour for 6 hours; 1d2 Int drain; 3 saves
+
+#
+# PFS Module PZO9500
+#
+
+Robe of Useful Items.COPY=Chief's Personal Very Useful Robe
+Chief's Personal Very Useful Robe.MOD															TYPE:PFS						COST:2334			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9500-5																			SOURCELONG:PFS Module We Be Goblins!																																		SPROP:[robe of useful items] 4 patches left - a ladder, a three legged turtle, a horseshoe, and a bullhorn
+Dogslicer.COPY=Gorge of Gluttons
+Gorge of Gluttons.MOD																		TYPE:PFS						COST:2308			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9500-5					EQMOD:PLUS1W												SOURCELONG:PFS Module We Be Goblins!																																		SPROP:(cost s/b 2308 gp) +1 horse bane dogslicer
+
+Elixir of fire breath.COPY=Dragon Breath Gourd
+Dragon Breath Gourd.MOD																		TYPE:PFS										PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9500-5																			SOURCELONG:PFS Module We Be Goblins!
+Ring of Climbing.COPY=Ring That Lets You Climb Real Good
+Ring That Lets You Climb Real Good.MOD															TYPE:PFS										PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9500-5																			SOURCELONG:PFS Module We Be Goblins!
+Elixir of fire breath.COPY=Gourd of Fire Burping
+Gourd of Fire Burping.MOD																	TYPE:PFS						COST:250			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9500-7																			SOURCELONG:PFS Module We Be Goblins Too!																																		SPROP:(cost s/b 250 gp) this functions as an elixir of fire breath, but the imbiber may only breathe fire once in a 15 ft. cone that deals 2d6 fire damage [DC 12 Reflex save for half ]
+Figurine of Wondrous Power (Bronze Griffon).COPY=Figurine of Wondrous Power (Silver Sphinx)
+Figurine of Wondrous Power (Silver Sphinx).MOD														TYPE:PFS						COST:10000			PREABILITY:1,CATEGORY=PFS Chronicle,Chronicle ~ PZO9500-8																			SOURCELONG:PFS Module Risen from the Sands																																	SPROP:variant bronze griffon figurine of wondrous power that becomes a living, falconheaded hieracosphinx when activated [use the stats for a griffon]; Pathfinder RPG Core Rulebook 513).
+
+#Desnan candle (5 gp; when lit, this foot-long wooden tube launches a flaming pyrotechnic 'candle' every round for 4 rounds. Each projectile deals 1 point of nonlethal damage and 1 point of fire damage if it hits; on a critical hit, the target is also blinded for 1 round. The projectiles shed light as candles for 1 round and have a range increment of 5 feet. Attacking with a Desnan candle is a ranged touch attack and always has a -4 nonproficiency penalty.)
+#Paper candle (1 gp; This finger-sized explosive detonates noisily 1 round after lighting. Anyone in the same square as a paper candle when it explodes must make a DC 15 Fortitude save or be dazzled for 1d4 rounds.)
+#Skyrocket (50 gp; When lit, this foot-long wooden tube begins to shake and emit a handful of white sparks, shedding light as a torch. One round later it takes flight, moving in a straight line with a fly speed of 90 for 1d6 rounds before loudly exploding in a burst of light and sound, dealing 2d6 points of fire damage in a 10-foot burst [DC 15 Reflex save for half ]. If a skyrocket impacts a solid surface or a creature before reaching its maximum range, it detonates prematurely at the point of impact. Anyone who takes damage from the explosion is either blinded or deafened [a 50% chance of either] for 1 round.)
+
+#
+# DONE
+#

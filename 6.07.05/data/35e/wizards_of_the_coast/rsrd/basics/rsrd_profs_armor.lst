@@ -1,0 +1,25 @@
+# CVS $Revision$ $Author$ -- Wed Sep  3 00:18:24 2014 -- reformated by prettylst.pl v1.51 (build 24947)
+SOURCELONG:Revised (v.3.5) System Reference Document	SOURCESHORT:RSRD	SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35	SOURCEDATE:2000-01
+
+#Light
+# Armor Name	Type
+Padded		TYPE:Light.ArmorProfLight
+Leather		TYPE:Light.ArmorProfLight
+Studded Leather	TYPE:Light.ArmorProfLight
+Chain Shirt		TYPE:Light.ArmorProfLight
+
+#Medium
+Hide			TYPE:Medium.ArmorProfMedium
+Scale Mail		TYPE:Medium.ArmorProfMedium
+Chainmail		TYPE:Medium.ArmorProfMedium
+Breastplate		TYPE:Medium.ArmorProfMedium
+
+#Heavy
+Splint Mail		TYPE:Heavy.ArmorProfHeavy
+Banded Mail		TYPE:Heavy.ArmorProfHeavy
+Half-Plate		TYPE:Heavy.ArmorProfHeavy
+Full Plate		TYPE:Heavy.ArmorProfHeavy
+
+#
+# End
+#

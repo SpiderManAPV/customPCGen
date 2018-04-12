@@ -1,0 +1,6 @@
+# CVS $Revision$ $Author$ -- Fri Jan  1 12:57:05 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Malhavoc Press - The Complete Book of Eldritch Might	SOURCESHORT:BoEMC	SOURCEWEB:http://www.montecook.com	SOURCEDATE:2004-01
+# Original Entry by: Felipe Diniz
+
+# Deity Name	Product Identity?	Domains								Description of Deity/Title	FACT					FACTSET			Deity Weapon		Align		Source Page
+Jode			NAMEISPI:YES	DOMAINS:Air,Luck,Music,Protection|PREALIGN:NG,CG,CN	DESC:Guardian of Song		FACT:Symbol|Harp on a Shield	FACTSET:Pantheon|BoEMC	DEITYWEAP:Sword (Short)	ALIGN:CG	SOURCEPAGE:p.8

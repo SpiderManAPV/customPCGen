@@ -1,0 +1,121 @@
+#
+# Last Editor: $Author$
+# Last Edited: $Date$
+#
+#DEFAULTVARIABLEVALUE:NUMBER|0
+# message displayed when experience added allows character to advance a level
+#LEVELMSG:Congratulations, you can advance with that much experience!
+#
+#
+#ALIGNMENTNAME:Alignment
+#HPNAME:Hit Points
+#HPABBREV:HP
+#ALTHPNAME:
+#ALTHPABBREV:
+
+# AC tags can be used to display AC info by using appropriate name and abbrev.
+# ACNAME: and ACABBREV: are required for proper usage.
+#ACNAME:Armor Class
+#ACABBREV:AC
+
+# Whether to allow AutoResizing of Equipment for nonmedium characters in this gamemode
+#ALLOWAUTORESIZE:Y
+
+# Stacking bonuses
+#BONUSSTACKS:Defense.Dodge.Circumstance.NotRanged.NotFlatFooted
+
+#
+#misc. currency specific items
+#
+CURRENCYUNIT:Dollar
+CURRENCYUNITABBREV:$
+
+#
+#define this game mode's default unit set
+#as specified in unitset.lst
+#
+DEFAULTUNITSET:Imperial
+
+# The following determine whether some Class-related
+# variables are displayed on the Classes tab.
+# SHOWCLASSDEFENSE: determines whether BONUS:COMBAT|AC|x|TYPE=ClassDefense
+#  value is displayed.
+# DISPLAYVARIABLExTEXT: determines the Label displayed for the variable
+# DISPLAYVARIABLExNAME: determines the variable displayed.
+#  This must match the DEFINE: variable in order to be displayed
+# Up to 3 variables can be displayed in this manner
+
+SHOWCLASSDEFENSE:No
+#DISPLAYVARIABLE1TEXT:
+#DISPLAYVARIABLE1NAME:
+#DISPLAYVARIABLE2TEXT:
+#DISPLAYVARIABLE2NAME:
+#DISPLAYVARIABLE3TEXT:
+#DISPLAYVARIABLE3NAME:
+
+#
+# Whether or not the game mode displays these tabs
+#
+TAB:DESCRIPTION	NAME:in_descrip			VISIBLE:YES	CONTEXT:tabpages\tabdescription.html
+TAB:FEATS		NAME:Character Builder		VISIBLE:YES	CONTEXT:tabpages\tabfeatsandabilities.html	
+TAB:INVENTORY	NAME:Gear				VISIBLE:YES	CONTEXT:tabpages\tabinventory.html
+TAB:SUMMARY		NAME:in_summary			VISIBLE:YES	CONTEXT:tabpages\tabsummary.html
+# Inventory subpanels
+TAB:PURCHASE	NAME:in_purchase			VISIBLE:YES	CONTEXT:tabpages\tabinventory.html
+TAB:EQUIPPING	NAME:in_InfoEquipping		VISIBLE:YES	CONTEXT:tabpages\tabinventory.html
+
+# Don't Display
+TAB:DOMAINS		NAME:in_domains			VISIBLE:NO	CONTEXT:tabpages\tabdomains.html
+TAB:TEMPLATES						VISIBLE:NO
+TAB:SPELLS		NAME:in_spells			VISIBLE:NO	CONTEXT:tabpages\tabspells.html
+TAB:RACE		NAME:in_race			VISIBLE:NO	CONTEXT:tabpages\tabraces.html
+TAB:SKILLS		NAME:in_skills			VISIBLE:NO	CONTEXT:tabpages\tabskills.html
+TAB:CLASS		NAME:in_class			VISIBLE:NO	CONTEXT:tabpages\tabclasses.html
+TAB:COMPANIONS	NAME:in_companions		VISIBLE:NO	CONTEXT:tabpages\tabcompanions.html
+TAB:TEMPMOD		NAME:in_InfoTempMod		VISIBLE:NO	CONTEXT:tabpages\tabtemporarybonuses.html
+#
+# Menu entry (under Settings-->Campaign), and tool tip displayed for said entry
+# use & for mnemonic, && for & (MENUENTRY only)
+#
+MENUENTRY:Killshot
+MENUTOOLTIP:Use Killshot system
+DISPLAYORDER:1
+ALLOWEDMODES:Killshot
+
+BONUSFEATLEVELSTARTINTERVAL:999|0
+
+# Unit Set
+UNITSET:Imperial	HEIGHTUNIT:ftin	HEIGHTFACTOR:1		HEIGHTPATTERN:#		DISTANCEUNIT:ft.	DISTANCEFACTOR:1	DISTANCEPATTERN:#.##	WEIGHTUNIT:lbs.	WEIGHTFACTOR:1	WEIGHTPATTERN:#.##
+UNITSET:Metric		HEIGHTUNIT:cm	HEIGHTFACTOR:2.54	HEIGHTPATTERN:#		DISTANCEUNIT:m		DISTANCEFACTOR:0.3	DISTANCEPATTERN:#.##	WEIGHTUNIT:kg	WEIGHTFACTOR:0.5	WEIGHTPATTERN:#.###
+
+#
+# Ability Categories
+#
+
+ABILITYCATEGORY:FEAT		VISIBLE:YES		EDITABLE:NO	EDITPOOL:NO	FRACTIONALPOOL:NO		CATEGORY:FEAT	DISPLAYLOCATION:Training Pool
+ABILITYCATEGORY:Internal	VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Internal
+###COMMENT: Internal Category is for all hidden abilities.
+#ABILITYCATEGORY:Natural Attack	VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Natural Attack					
+
+
+PREVIEWDIR:killshot
+PREVIEWSHEET:killshot.htm
+
+OUTPUTSHEET:DIRECTORY|killshot
+OUTPUTSHEET:DEFAULT.PDF|csheet_killshot.xslt
+#OUTPUTSHEET:DEFAULT.HTM|csheet_fantasy_std.htm
+
+INFOSHEET:SUMMARY|preview/summary/killshot_info.html.ftl
+#INFOSHEET:SKILLS|preview/skills/35e_skills.html
+
+DIESIZES:MIN=6,8,10,12,MAX=20
+
+# Character Types:
+CHARACTERTYPE:Assassin|Mark|Thug
+
+# Commented out till Killshot is released in the main release.
+#DEFAULTDATASET:Killshot - The Director's Cut
+
+#
+# DONE
+#

@@ -1,0 +1,47 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Heroes of High Favor - Dwarves	SOURCESHORT:HoHF-D	SOURCEWEB:www.badaxegames.com	SOURCEDATE:2002-07
+# Original Entry by: Andrew Maitland
+
+# Class Name		Remove Class Skill			Class Skill
+CLASS:Dwarven Skald.MOD	CSKILL:.CLEAR.Intuit Direction	CSKILL:Survival
+
+# Class Name		Remove Class Skill
+CLASS:Rune-Priest.MOD	CSKILL:.CLEAR.Scry
+1	SPELLLEVEL:CLASS|Rune-Priest=2|Bear's Endurance
+1	SPELLLEVEL:CLASS|Rune-Priest=3|Magic Weapon (Greater)
+1	SPELLLEVEL:CLASS|Rune-Priest=5|Command (Greater),Cure Light Wounds (Mass)
+
+
+# Class Name				Required Ability					Required Language	Required Skill		Req. Spell Type
+CLASS:Rock-Warden.MOD PRE:.CLEAR	PREABILITY:1,CATEGORY=FEAT,Blind-Fight	PRELANG:1,Terran	PRESKILL:1,Survival=8	PRESPELLTYPE:1,Divine=2
+# Class Name		Class Skill
+CLASS:Rock-Warden.MOD	CSKILL:Survival
+
+# Class Name			Class Skill
+CLASS:Stoneheart Ascetic.MOD	CSKILL:Survival
+1	BONUS:VAR|StunningFistMonkLVL|CL	ABILITY:Special Ability|VIRTUAL|.CLEAR.Stunning Attack
+
+# Class Name			Required Ability																		Required Skill								Required Text									PRETOTALAB
+CLASS:Paragon.MOD PRE:.CLEAR	PREABILITY:1,CATEGORY=Special Ability,Lay on Hands	PREABILITY:2,CATEGORY=FEAT,Improved Sunder,Weapon Specialization	PRESKILL:2,Craft (Armorsmithing)=8,Knowledge (Dwarves)=6	PRETEXT:Weapon Specialization must be deities favored weapon	PRETOTALAB:5
+
+# Class Name				Required Ability										Required Skill							Required Text				PRETOTALAB
+CLASS:Slayer ~ HoHFD.MOD PRE:.CLEAR	PREABILITY:3,CATEGORY=FEAT,Track,Weapon Focus,Weapon Specialization	PRESKILL:3,Knowledge (Dwarves)=8,Spot=8,Survival=8	PRETEXT:Must have a favored enemy	PRETOTALAB:5
+# Class Name			Class Skill
+CLASS:Slayer ~ HoHFD.MOD	CSKILL:Survival
+
+# Class Name				Required Ability											Required Race				Required Skill												PRETOTALAB
+CLASS:Tunnel-Fighter.MOD PRE:.CLEAR	PREABILITY:3,CATEGORY=FEAT,Alertness,Improved Initiative,Point Blank Shot	PRERACE:1,Dwarf,Gnome,Kobold,Goblin	PRESKILL:6,Craft (Trapmaking)=6,Hide=6,Survival=6,Move Silently=6,Spot=6,Tumble=6	PRETOTALAB:5
+# Class Name			Class Skill
+CLASS:Tunnel-Fighter.MOD	CSKILL:Survival
+2	BONUS:VAR|UncannyDodgeLevel|1	ABILITY:Special Ability|AUTOMATIC|.CLEAR.Uncanny Dodge	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
+5	BONUS:VAR|UncannyDodgeLevel|1
+
+# Class Name		Remove Class Skill
+CLASS:Aceldamist.MOD	CSKILL:.CLEAR.Alchemy	CSKILL:.CLEAR.Scry
+
+# Class Name		Remove Class Skill
+CLASS:Artificer.MOD	CSKILL:.CLEAR.Alchemy	CSKILL:.CLEAR.Scry
+
+#
+# End
+#

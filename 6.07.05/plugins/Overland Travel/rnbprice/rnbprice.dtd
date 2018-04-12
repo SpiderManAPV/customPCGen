@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : rnbprice.dtd
+    Author     : Juliean Galak
+    Description:
+        DTD for a document holding room and board prices
+-->
+
+<!ELEMENT table (item*)>
+<!ATTLIST table numberFormat CDATA #IMPLIED>
+<!ELEMENT item (type, name, price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

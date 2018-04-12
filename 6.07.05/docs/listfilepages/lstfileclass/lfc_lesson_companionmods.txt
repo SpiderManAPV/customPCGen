@@ -1,0 +1,179 @@
+Greetings,
+
+Welcome to the section on Companion Mod creation and editing.
+
+Tags used in the Companion Mod File -
+COPYMASTERBAB, COPYMASTERCHECK, COPYMASTERHP, FOLLOWER, FOLLOWERADJUSTMENT, HD, MASTERBONUSRACE,
+
+RACETYPE, SWITCHRACE, TYPE, USEMASTERSKILL,  Plus any Global Tags
+
+Mention of 'BONUS:FOLLOWERS' and 'COMPANIONLIST' though not used in this actual file.
+
+Standards
+<TAB> indicates a Tab character.
+ALL CAPS indicates an actual tag.
+Actual Tag usage will be on it's own line to avoid confusion. Followed by a brief explanation of either it's function or what it's doing in the context of the example.
+
+
+SECTION 1: HOW TO CREATE YOUR OWN COMPANIONS
+
+There may come a time when you want to make your own special companion which doesn't match the rules. That's okay. Setting up a new companion with different powers or grants different bonuses to the master is acceptable. That is what this section is here for, to guide you through the process of making your companion - be it a Special Familiar, a War mount or anything else you might want.
+
+So without further adieu...
+---
+
+The first tag is FOLLOWER, each line generally starts with the Follower tag.
+
+Think of the Follower as sort of a class Tag telling the program what "level" things happen at. So like we have Class Level Lines to tell PCGen what is applied at that level and lower so to do we have a tag called FOLLOWER which acts in much the same way.
+
+
+FOLLOWER:MonkeyFu=1
+The Follower tag can take variables or Class names. So if MonkeyFu is a Class then you need to have the first level to qualify, however, MonkeyFu is a variable, so you need to have this variable of at least 1 to obtain the rest of the benefits derived from the rest of the line.
+
+FOLLOWER:Paladin=1
+You need to have 1 level in paladin class.
+
+FOLLOWER:MagicItem=1
+You need to have 1 in a variable name called MagicItem
+
+
+The second and VERY important tag is TYPE
+Type tells pcgen what applies to this line. The ones used commonly in PCGen's main sets are:
+
+Familiar, Animal Companion, Special Mount
+
+Any Creature meeting that "TYPE" will have the benefits applied to them. Simply put without a TYPE PCGen won't be able to able the changes you code up. TYPE has to match exactly the name from COMPANIONLIST.
+
+Example of a Familiar:
+COMPANIONLIST:Familiar|Bat,Cat
+Bat and Cat are both of the Familiar TYPE.
+
+After that you can use any Tags are appropriate for your Companion. 
+So let's review the tags we can commonly use on the Follower Line -
+
+---
+COPYMASTERBAB
+If you want your companion to either follow the Master PC Base Attack Bonus progression or have a unique one of it's own, you would use this tag.
+
+COPYMASTERBAB:MASTER
+Follows the Master's BAB progression (Common for familiars)
+
+COPYMASTERBAB:5
+Sets the BAB of the creature to 5
+
+
+---
+COPYMASTERCHECK:MASTER
+That's it, this only copies the Master's Base Checks (Commonly Fortitude, Reflex and Will) The creature will use it's Stats to modify the base though
+(Common for Familiar)
+
+---
+
+FOLLOWERADJUSTMENT
+This is used appended to the COMPANIONLIST tag. COMPANIONLIST is the another Tag that can be first in a companion mod file.
+
+Example from the docs
+COMPANIONLIST:Animal Companion|Ape|FOLLOWERADJUSTMENT:-3
+
+An Ape companion to a 4th level Druid gains the benefits normally granted to a companion of a 1st level Druid.
+
+---
+HD
+This will grant bonus Hit Die of the creature type. 
+
+EXAMPLE:
+HD:5
+Will grant 5 bonus Hit Die (Or class levels) of the creatures type.
+If the Creature is Fey it will gain the HD and class benefits of being 5 HD stronger
+NOTE: The base creature can exceed the maximum HD cap for it's race in this manner.
+
+
+---
+MASTERBONUSRACE
+Sets any special bonuses a particular race may grant to the master (Common for familiar).
+Common tags to follow this are BONUS and VFEAT.
+The uses of this tag are not to be underestimated, with this tag you can grant a level dependent bonus to the master at a certain level.
+
+EXAMPLE:
+MASTERBONUSRACE:Bat <TAB> BONUS:SKILL|Spot|3
+Would give the master +3 bonus to Spot checks if he has a Bat.
+
+MASTERBONUSRACE:Bat <TAB> BONUS:VAR|MyCoolVar|3|PREPCLEVEL:MIN=10
+At 10th level the Master of this Bat gets 3 to his 'MyCoolVar' which can be attached to a feat, ability, or even an item with a Variable in the SPROP.
+
+MASTERBONUSRACE:Magic Item - Sword <TAB> BONUS:VAR|MagicWeaponPlusIncrease|2|PREVARGTEQ:MagicItem,1
+This will grant two (2) to the varaible MagicWeaponPlusIncrease when the PREVAR requirements are met.
+
+---
+RACETYPE
+This tag will change the base creature's type to the one listed.
+
+RACETYPE:Fey
+The creature now has the Fey Type
+
+---
+USEMASTERSKILL
+Determines whether the creature will have the exact same skill ranks as the master.
+
+Your choices are YES and NO (Default)
+
+USEMASTERSKILL:YES
+Creature will have the exact same ranks in the skills chosen by the master.
+
+---
+Although not used in this particular file it deserves mention.
+
+BONUS:FOLLOWERS
+This tag is what allows us to actually gain the creature. Without it you won't be able to get the creature. This needs to match the COMPANIONLIST definition, which is seen as TYPE inside our actual file.
+
+BONUS:FOLLOWERS|Familiar|1
+You can gain one (1) Familiar
+
+FOLLOWER:Whatever=1 <TAB> TYPE:Familiar
+COMPANIONLIST:Familiar|Foo
+
+Notice the pattern, if you don't match those exactly you won't get your creature.
+
+
+Okay, lets put together a sample critter
+
+FOLLOWER:Monkey Warrior=1 <TAB> HD:5 <TAB> TYPE:Monkey Mount <TAB> ABILITY:Special Ability|AUTOMATIC|Dodging Foo|Nasty Breath <TAB> RACETYPE:Dragon <TAB> USEMASTERSKILL:YES
+
+FOLLOWER:Monkey Warrior=5 <TAB> HD:5 <TAB> SR:12+HD
+
+
+Okay Class, I threw a few curve balls in there. At 1st level as a Monkey Warrior my critter of the Monkey Mount TYPE will become a Dragon RACETYPE, it will use my Skill Rank Selection, and gets the Special Abilities of Dodging Foo and Nasty Breath (As automatic nature).
+When Monkey Warrior becomes 5th level, my critter will gain another 5 bonus hit die and gain Spell Resistance of 12 + it's HD.
+
+This is showing you what is possible in your own Companion Mod file.
+
+Now, we shouldn't leave you at this... You need to place some where what creatures I can select.
+COMPANIONLIST:Monkey Mount|Wolf,Fuzzy Bear
+That would make a Wolf and Fuzzy Bear
+
+COMPANIONLIST:Monkey Mount|Bat|FOLLOWERADJUSTMENT:-5
+If my Monkey Warrior takes a bat companion he needs to be 6th level before the 1st level effect takes place and then 10th level for the level 5 effect.
+
+Now an advanced technique for those that feel they understand this. -
+
+COMPANIONLIST:Intelligent Item|Intelligent Weapon - Longsword
+BONUS:FOLLOWERS|Intelligent Item|1
+
+MASTERBONUSRACE:Intelligent Weapon - Longsword <TAB> BONUS:SKILL|Move Silently|5|TYPE=Competence <TAB> AUTO:FEAT|Weapon Focus(Longsword) <TAB> BONUS:VAR|WeaponPlusIncrease|1|PREPCLEVEL:MIN=8
+
+
+Okay, that should get you on the path of Companion Mod file creation. In the next section we discuss applications of Adding and modifying the Companion.
+
+-Andrew Maitland
+
+
+SECTION 2: Modifying Creatures
+
+It always happens, either through a feat, new power or just a whim. Regardless of the source, there may come a time when you wish to add to the list of available critters to a certain class or group.
+
+COMPANIONLIST is additive. A good example of this case is Improved Familiar.
+
+COMPANIONLIST:Familiar|Shocker Lizard,Stirge|PRECLASS:1,SPELLCASTER.Arcane=5
+This will grant the Shocker Lizard and Stirge to the available list in the Familiar (TYPE) if the master is an Arcane Spell Caster of 5th level or higher.
+
+

@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Fri Jan  1 12:57:05 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:A Question of Loyalty: A Guidebook to Military Orders	SOURCESHORT:GuideMO	SOURCEWEB:http://www.aleapublishing.com	SOURCEDATE:2003-01
+# Original Entry: Andrew Maitland
+
+# Class Name		Hit Dice	Type			Max Level	Source Page		Combat bonus										Save bonus																					FACT
+CLASS:Knight Commander	HD:10		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.28	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	FACT:Abb|KnCmdr
+# Class Name		Required Ability								Required Skill								PRETOTALAB
+CLASS:Knight Commander	PREABILITY:1,CATEGORY=FEAT,Banneret,Preceptor,Leadership	PRESKILL:2,Diplomacy=13,Knowledge (Nobility and Royalty)=5	PRETOTALAB:7
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Knight Commander	STARTSKILLPTS:2	CSKILL:Diplomacy|Gather Information|Knowledge (local)|Knowledge (Nobility and Royalty)|Profession (Soldier)|Ride|Sense Motive
+### CLass Ability Block
+1	BONUS:VAR|SphereInfluenceArea|min((CL*10),100)				DEFINE:SphereInfluenceArea|0	ABILITY:Special Ability|AUTOMATIC|Sphere of Influence ~ Knight Commander
+1	BONUS:VAR|CombatSenseVar|(CL+1)/3	BONUS:VAR|CombatSenseVar|1	DEFINE:CombatSenseVar|0		ABILITY:Special Ability|AUTOMATIC|Combat Sense ~ Knight Commander
+### Level Progression:
+2																	ABILITY:Special Ability|AUTOMATIC|Fearless ~ Knight Commander
+3																	ABILITY:Special Ability|AUTOMATIC|Despair ~ Knight Commander
+5																	ABILITY:Special Ability|AUTOMATIC|Advanced Leadership ~ Knight Commander|Hope ~ Knight Commander
+7																	ABILITY:Special Ability|AUTOMATIC|Instill Rage ~ Knight Commander
+10																	ABILITY:Special Ability|AUTOMATIC|Supreme Leadership ~ Knight Commander

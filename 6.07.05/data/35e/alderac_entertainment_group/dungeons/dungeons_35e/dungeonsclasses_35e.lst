@@ -1,0 +1,12 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+
+# Class Name		Remove Class Skill	Class Skill
+CLASS:Crusader.MOD	CSKILL:.CLEAR		CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (arcana)|Knowledge (Subterranean Cultures)|Knowledge (religion)|Spellcraft
+
+# Class Name		Clear Prereq.	Required Ability						Multiple Requirements														Req. Spell Type
+CLASS:Demolitionist.MOD	PRE:.CLEAR		PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PREMULT:2,[PRESKILL:1,Craft (Alchemy)=8],[PRESKILL:1,Craft (Blacksmithing)=8,Craft (Metalworking)=8]	PRESPELLTYPE:1,Arcane=3
+# Class Name		Remove Class Skill	Class Skill
+CLASS:Demolitionist.MOD	CSKILL:.CLEAR		CSKILL:Concentration|TYPE=Craft|TYPE=Knowledge|TYPE=Profession
+
+# Class Name		Remove Class Skill	Class Skill
+CLASS:Shock Trooper.MOD	CSKILL:.CLEAR		CSKILL:Balance|Climb|TYPE=Craft|Jump|Listen|Survival|Tumble
