@@ -1,0 +1,5 @@
+SOURCELONG:Adam's Homebrew Stuff	SOURCEDATE:2018-04
+
+### Wondrous Items
+# Equipment Name		Type								Cost			Weight	SProps	Modifier	Requires Modification?	Modify VAR	Modify the item cost
+Weirding Watch Part	Magic.Wondrous					COST:4400	WT:0.0	SPROP:Once a watch piece is activated, the bearer gains the benefits of haste and lesser age resistance for 3 rounds. Anyone bearing a piece from the same weirding watch within 30 feet receives the same effect. Each piece of the watch can be activated once per day.
