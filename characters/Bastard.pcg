@@ -1,0 +1,212 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Arcane Anthology|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Occult Adventures|CAMPAIGN:Adam's Pathfinder Campaign|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Advanced Class Origins|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Races|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:Elves of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Mythic Adventures|CAMPAIGN:Path of War|CAMPAIGN:PCGen Enhancement Re-namer
+VERSION:6.07.05
+ROLLMETHOD:2|EXPRESSION:Powerful NPC
+PURCHASEPOINTS:Y|TYPE:Powerful NPC
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:1
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Bastard
+TABNAME:
+PLAYERNAME:Jack
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:10
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+RACE:Companion (Bird (Hawk))
+
+# Character Class(es)
+CLASS:Companion|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Companion=1|HITPOINTS:2|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=2|HITPOINTS:4|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=3|HITPOINTS:6|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=4|HITPOINTS:2|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=5|HITPOINTS:7|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=6|HITPOINTS:2|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=7|HITPOINTS:1|SKILLSGAINED:1|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Talons 2 (Small)]
+TEMPLATESAPPLIED:[NAME:Bite 1 (Small)]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Kyonin)]
+
+# Character Region
+REGION:Kyonin
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:28|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:38|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Fly|OUTPUTORDER:22|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:25|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:26|
+SKILL:Heal|OUTPUTORDER:27|
+SKILL:Intimidate|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Companion|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:36|
+SKILL:Perform (Untrained)|OUTPUTORDER:37|
+SKILL:Profession (Untrained)|OUTPUTORDER:39|
+SKILL:Ride|OUTPUTORDER:40|
+SKILL:Samurai Mount|OUTPUTORDER:41|
+SKILL:Sense Motive|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
+SKILL:Stealth|OUTPUTORDER:47|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:48|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:49|
+SKILL:Stealth (Jungle)|OUTPUTORDER:50|
+SKILL:Survival|OUTPUTORDER:51|
+SKILL:Swim|OUTPUTORDER:52|
+SKILL:Untrained Charisma|OUTPUTORDER:53|
+SKILL:Untrained Dexterity|OUTPUTORDER:54|
+SKILL:Untrained Intelligence|OUTPUTORDER:55|
+SKILL:Untrained Strength|OUTPUTORDER:56|
+SKILL:Untrained Wisdom|OUTPUTORDER:57|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:46|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
+
+# Character Languages
+
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Agile Maneuvers|TYPE:AnimalCompanionFeat|DESC:You add your Dexterity bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus (see Chapter 8) instead of your Strength bonus.
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Diehard|TYPE:AnimalCompanionFeat|DESC:When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious. When using this feat, you are staggered. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some free actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Improved Natural Armor|APPLIEDTO:|TYPE:AnimalCompanionFeat|DESC:The creature's natural armor bonus increases by +1. Special&colon; A creature can gain this feat multiple times. Each time the creature takes the feat, its natural armor bonus increases by another point.
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Toughness|TYPE:AnimalCompanionFeat|DESC:You gain +%1 hit points.&pipe;max(3,TL)|DESC:You gain +1 hit points whenever you gain a Hit Die (such as when you gain a level).&pipe;PREHD&colon;MIN=3
+USERPOOL:Animal Companion Feat|POOLPOINTS:0.0
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Training ~ Hunting|TYPE:AnimalTrick.AnimalTraining.General.SpecialQuality|DESC:An animal trained for hunting knows the tricks attack, down, fetch, heel, seek, and track. Training an animal for hunting takes 6 weeks.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Come|TYPE:AnimalTrick|DESC:The animal comes to you, even if it normally would not do so.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Defend|TYPE:AnimalTrick|DESC:The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend another specific character.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Stay|TYPE:AnimalTrick|DESC:The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+ABILITY:Companion Level Increase Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Companion Advancement|TYPE:CompChoice
+USERPOOL:Companion Level Increase Choice|POOLPOINTS:0.0
+ABILITY:Companion Stat Increase|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Companion Stat ~ DEX|APPLIEDTO:|TYPE:CompStatChoice
+USERPOOL:Companion Stat Increase|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Kyonin|TYPE:Region|DESC:Kingdom of the Elves
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bite|WEAPON:Talons]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Talons (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Talons|DATA:KEY=Talons]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Talons (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.2|VALUE:Bite (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Companion ~ Bird
+
+# Character Master/Follower
+MASTER:Lysanderoth|TYPE:Animal Companion|HITDICE:5|FILE:Lysanderoth.pcg|ADJUSTMENT:0
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

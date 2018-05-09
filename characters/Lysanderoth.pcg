@@ -1,0 +1,259 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Arcane Anthology|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Occult Adventures|CAMPAIGN:Adam's Pathfinder Campaign|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Advanced Class Origins|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Races|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:Elves of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Mythic Adventures|CAMPAIGN:Path of War|CAMPAIGN:PCGen Enhancement Re-namer
+VERSION:6.07.05
+ROLLMETHOD:2|EXPRESSION:Powerful NPC
+PURCHASEPOINTS:Y|TYPE:Powerful NPC
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:25
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Lysanderoth
+TABNAME:Lysanderoth (Jack)
+PLAYERNAME:Jack
+HEIGHT:75
+WEIGHT:133
+AGE:55
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:19
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:7
+ALIGN:LN
+RACE:Elf
+
+# Character Class(es)
+CLASS:Ranger|LEVEL:11|SKILLPOOL:0
+CLASSABILITIESLEVEL:Ranger=1|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=2|HITPOINTS:2|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=3|HITPOINTS:9|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=4|HITPOINTS:3|PRESTAT:DEX=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=5|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=6|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=7|HITPOINTS:2|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=8|HITPOINTS:9|PRESTAT:CON=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=9|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=10|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=11|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105000
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Kyonin)]
+
+# Character Region
+REGION:Kyonin
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:29|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:41|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Ranger|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Ranger|RANKS:5.0|COST:1|CLASSSKILL:N]
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Fly|OUTPUTORDER:22|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
+SKILL:Handle Animal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Ranger|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Ranger|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Ranger|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Local)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Nature)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Ranger|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:39|
+SKILL:Perform (Untrained)|OUTPUTORDER:40|
+SKILL:Profession (Untrained)|OUTPUTORDER:42|
+SKILL:Ride|OUTPUTORDER:43|
+SKILL:Samurai Mount|OUTPUTORDER:44|
+SKILL:Sense Motive|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Ranger|RANKS:5.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:46|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:47|
+SKILL:Stealth|OUTPUTORDER:50|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:51|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:52|
+SKILL:Stealth (Jungle)|OUTPUTORDER:53|
+SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Ranger|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Combat Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style ~ Archery|TYPE:RangerClassFeatures.RangerCombatStyle.ClassFeatures
+USERPOOL:Combat Style|POOLPOINTS:0.0
+ABILITY:Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Elf Racial Subtype|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agile Maneuvers|TYPE:Combat.ProteanBloodline|DESC:You learned to use your quickness in place of brute force when performing combat maneuvers.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Animal Affinity|TYPE:General|DESC:You are skilled at working with animals and mounts.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Breadth of Experience|TYPE:General|DESC:Although still young for your kind, you have a lifetime of knowledge and training.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Defensive Combat Training|TYPE:Combat.AquaticBloodline.ProteanBloodline.KoboldBloodline.AccursedBloodline|DESC:You excel at defending yourself from all manner of combat maneuvers.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Elven Accuracy|TYPE:Combat|DESC:Your sharp eyesight makes difficult shots easier.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.BlackBloodBloodragerBloodline.KytonBloodragerBloodline|DESC:You have enhanced physical stamina.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Handle Animal,Swim,Survival,Knowledge (Local),Knowledge (Nature),Climb,Acrobatics,Perception|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy ~ Animal|TYPE:RangerClassFeatures.FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against animals. Likewise, you get a +%1 bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures.&pipe;FavoredAnimal
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy ~ Humanoid (Elf)|TYPE:RangerClassFeatures.FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against elves. Likewise, you get a +%1 bonus on weapon attack and damage rolls against such creatures You may make Knowledge Skill checks untrained to identify such creatures.&pipe;FavoredHumanoidElf
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy ~ Humanoid (Human)|TYPE:RangerClassFeatures.FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against humans. Likewise, you get a +%1 bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures.&pipe;FavoredHumanoidHuman
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+ABILITY:Favored Enemy Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy Bonus ~ Humanoid (Elf)|APPLIEDTO:|TYPE:RangerClassFeatures.FavoredEnemyBonus
+ABILITY:Favored Enemy Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy Bonus ~ Humanoid (Human)|APPLIEDTO:|TYPE:RangerClassFeatures.FavoredEnemyBonus
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+ABILITY:Favored Terrain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain ~ Forest|TYPE:RangerClassFeatures.SpecialQuality.Extraordinary.FavoredTerrain|DESC:You gain a +%1 bonus on Knowledge (Geography), Perception, Stealth, and Survival checks when using these skills in forest terrain (coniferous and deciduous). Likewise, you get a +%1 bonus on initiative checks when in this terrain. If you desire, you leave no trail in this terrain and cannot be tracked.&pipe;FavoredTerrainForest
+ABILITY:Favored Terrain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain ~ Mountain|TYPE:RangerClassFeatures.SpecialQuality.Extraordinary.FavoredTerrain|DESC:You gain a +%1 bonus on Knowledge (Geography), Perception, Stealth, and Survival checks when using these skills in mountain terrain (including hills). Likewise, you get a +%1 bonus on initiative checks when in this terrain. If you desire, you leave no trail in this terrain and cannot be tracked.&pipe;FavoredTerrainMountains
+USERPOOL:Favored Terrain|POOLPOINTS:0.0
+ABILITY:Favored Terrain Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain Bonus ~ Forest|APPLIEDTO:|TYPE:RangerClassFeatures.FavoredTerrainBonus
+USERPOOL:Favored Terrain Bonus|POOLPOINTS:0.0
+ABILITY:Hunter's Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hunter's Bond ~ Animal Companion|TYPE:RangerClassFeatures.SpecialQuality.Extraordinary.HuntersBond.Animal Companion|DESC:This is not Allowed with the Archetype you selected.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,TYPE.RangerAnimalCompanion
+USERPOOL:Hunter's Bond|POOLPOINTS:0.0
+ABILITY:Mythic Feat|TYPE:NORMAL|CATEGORY:Mythic Feat|KEY:Animal Affinity|TYPE:Mythic|DESC:You have a greater affinity with wild animals, and can speak with them.
+USERPOOL:Mythic Feat|POOLPOINTS:0.0
+ABILITY:Mythic Path|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path ~ Champion|TYPE:Mythic Path.SpecialQuality|DESC:The champion is the pinnacle of skill at arms and armor. No ordinary fighter could hope to match the skill with a blade, a bow, or an axe that surges within a mythic champion. The champion turns aside blows and shatters shields with every movement, all while racing gracefully across the chaotic battlefield. When the screams of fallen foes die down, the champion stands strong and defiant in blood-spattered armor, hefting a weapon and shouting a terrifying war cry.&amp;nl;Role&colon; As a champion, your role is to take the fight to your enemies. Using devastating melee powers, you can crush your enemies before they even have a chance to harm you and your allies. Few can match your skill at arms or your ability to perform amazing feats of strength. The champion abilities allow you to control your foes, move easily around the battlefield, and challenge a large number of foes all at once. The rest of the party can count on you to dominate any melee you charge into.&amp;nl;Classes&colon; While members or nearly any class could be champions, those who focus on melee attacks-- barbarians, cavaliers, fighters, monks, paladins, and rangers--will find the abilities in this path most attractive and useful. However, even magi or rogues could find that the path of the champion is an excellent way to augment their abilities.
+USERPOOL:Mythic Path|POOLPOINTS:0.0
+ABILITY:Mythic Path Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Ability ~ Always a Chance|TYPE:Mythic Path Ability.SpecialQuality.Extraordinary|DESC:You don't automatically miss when you roll a 1 on an attack roll.
+USERPOOL:Mythic Path Ability|POOLPOINTS:0.0
+ABILITY:Mythic Path Feature ~ Champion's Strike|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Feature ~ Distant Barrage|TYPE:Mythic Path Feature.Champion Path Feature.SpecialAttack|DESC:As a swift action, you can expend one use of mythic power to make a ranged attack at your highest attack bonus. This is in addition to any other attacks you make this round. When making this attack, ignore the target's cover and concealment other than total cover, and add +%1 to the attack roll. Damage from this attack bypasses all damage reduction.&pipe;MythicLevel
+USERPOOL:Mythic Path Feature ~ Champion's Strike|POOLPOINTS:0.0
+ABILITY:Mythic Tier|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Level|APPLIEDTO:|TYPE:Mythic Tier|DESC:Mythic characters advance in power by gaining tiers, each of which grants new abilities. Attaining a new mythic tier requires completing difficult trials within the campaign's story rather than accumulating experience points. Mythic tiers range from 1 to 10. Characters who achieve 10th tier are at the height of mythic power, and are in some respects akin to minor deities.
+USERPOOL:Mythic Tier|POOLPOINTS:0.0
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Improved Precise Shot|TYPE:RangerBonusFeat|DESC:Your ranged attacks ignore anything but total concealment and cover.
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Rapid Shot|TYPE:RangerBonusFeat|DESC:You can make an additional ranged attack.
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Shot on the Run|TYPE:RangerBonusFeat|DESC:You can move, fire a ranged weapon, and move again before your foes can react.
+USERPOOL:Ranger Combat Style Feat|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Kyonin|TYPE:Region|DESC:Kingdom of the Elves
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Courageous|TYPE:Trait.BasicTrait.CombatTrait|DESC:Your childhood was brutal, yet you persevered primarily through force of will and the hope that no matter how hard things might get, as long as you kept a level head you'd make it through. You gain a +2 trait bonus on saving throws against fear effects.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Log Roller|TYPE:Trait.RegionalTrait|DESC:The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing. You gain a +1 trait bonus on Acrobatics checks and a +1 trait bonus to your CMD when attempting to resist trip attacks.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Curve Blade (Elven)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber]
+WEAPONPROF:[WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Gaff|WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius]
+WEAPONPROF:[WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo]
+WEAPONPROF:[WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock]
+WEAPONPROF:[WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhoka|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Sling Glove|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck]
+WEAPONPROF:[WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork]
+WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:82000
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Arson Subdomain|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Cooperation Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Entropy Subdomain|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Fear Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Flotsam Subdomain|DOMAIN:Freedom Subdomain|DOMAIN:Friendship Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Isolation Subdomain|DOMAIN:Judgment Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Loyalty Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Moon Subdomain|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revelry Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rivers Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Slavery Subdomain|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Torture Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Tyranny Subdomain|DOMAIN:Undead Subdomain|DOMAIN:Venom Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Whimsy Subdomain|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+FOLLOWER:Bastard|TYPE:Animal Companion|RACE:COMPANION (BIRD (HAWK))|HITDICE:0|FILE:Bastard.pcg
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

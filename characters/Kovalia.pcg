@@ -1,0 +1,259 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Arcane Anthology|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Occult Adventures|CAMPAIGN:Adam's Pathfinder Campaign|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Advanced Class Origins|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Races|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:Elves of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Mythic Adventures|CAMPAIGN:Path of War|CAMPAIGN:PCGen Enhancement Re-namer
+VERSION:6.07.05
+ROLLMETHOD:2|EXPRESSION:Powerful NPC
+PURCHASEPOINTS:Y|TYPE:Powerful NPC
+CHARACTERTYPE:NPC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Kovalia
+TABNAME:
+PLAYERNAME:
+HEIGHT:64
+WEIGHT:0
+AGE:25
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:18
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:16
+STAT:INT|SCORE:8
+STAT:WIS|SCORE:8
+STAT:CHA|SCORE:9
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Barbarian|LEVEL:11|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:3|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=5|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=6|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:3|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=8|HITPOINTS:9|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=9|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=10|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=11|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:155000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Belkzen)]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity (Kellid)]
+
+# Character Region
+REGION:Hold of Belkzen
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:29|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:40|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:20|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
+SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Barbarian|RANKS:9.0|COST:1|CLASSSKILL:N]
+SKILL:Fly|OUTPUTORDER:23|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|
+SKILL:Intimidate|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Barbarian|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:37|
+SKILL:Perform (Act)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:39|
+SKILL:Profession (Untrained)|OUTPUTORDER:41|
+SKILL:Ride|OUTPUTORDER:42|
+SKILL:Samurai Mount|OUTPUTORDER:43|
+SKILL:Sense Motive|OUTPUTORDER:44|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
+SKILL:Sleight of Hand|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Barbarian|RANKS:9.0|COST:1|CLASSSKILL:N]
+SKILL:Stealth|OUTPUTORDER:50|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:51|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:52|
+SKILL:Stealth (Jungle)|OUTPUTORDER:53|
+SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Swim|OUTPUTORDER:55|
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Hallit
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Brutal Pugilist|TYPE:Archetype.BarbarianArchetype.BarbarianCFUncannyDodge.BarbarianCFTrapSense.BarbarianCFImprovedUncannyDodge.BarbarianUncannyDodge.BarbarianTrapSense.BarbarianImprovedUncannyDodge|DESC:Some barbarians focus on using their bare hands to tear their opponents limb from limb. These brutal pugilists also learn a great deal about various combat maneuvers, using them to cripple or crush their foes.
+ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Urban Barbarian|TYPE:Archetype.BarbarianArchetype.BarbarianFastMovement.BarbarianMediumArmorProficiency.BarbarianClassSkills|DESC:Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and upbringing to move with the ebb and flow of civilization's natural rhythms.
+USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
+ABILITY:Barbarian Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Barbarian ~ Unchained Class|TYPE:Barbarian Class Selection.AltBarbarianChoice
+USERPOOL:Barbarian Class Selection|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Body Shield|TYPE:Combat|DESC:With a sly maneuver, you force a grappled opponent into the path of an incoming attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage Power|APPLIEDTO:|TYPE:General|DESC:You have unlocked a new ability to use while raging.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Grapple|TYPE:Combat|DESC:Maintaining a grapple is second nature to you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Grapple|TYPE:Combat.AttackOption.AberrantBloodline.AberrantBloodragerBloodline|DESC:You are skilled at grappling opponents.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Unarmed Strike|TYPE:Combat.CloakedWolfBonusFeat.AberrantBloodline.AberrantBloodragerBloodline|DESC:You are skilled while fighting unarmed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Jabbing Style|TYPE:Combat.Style|DESC:A cluster of quick strikes deals more damage than a single roundhouse swing.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Pinning Rend|TYPE:Combat|DESC:You tear flesh when you damage an opponent that you have pinned.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Kellid|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Optional Rules Firearms ~ No Guns|TYPE:OptionalRules.FirearmsRule|DESC:If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Fractional BAB|TYPE:OptionalRules
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Fractional Saves|TYPE:OptionalRules
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Unchained Skills|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Ghost Rager|TYPE:RagePower.SpecialAttack.Supernatural.Unchained Rage Power|DESC:While raging, the barbarian deals normal damage to incorporeal creatures even when using nonmagical weapons. She also gains a +3 morale bonus to touch AC, which increases by 1 at 8th level and every 4 levels thereafter (to a maximum of +7 at 20th level). This can't raise her touch AC above her full AC. A barbarian must be at least 6th level before selecting this rage power.
+USERPOOL:Rage Power|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Belkzen|TYPE:Region|DESC:Savage Orc Homeland
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Brawler|TYPE:ClassFeatures.BarbarianClassFeatures.RagePower.SpecialAttack.Unchained Rage Power|DESC:While raging, the barbarian is treated as if she has Improved Unarmed Strike. If she already has the feat, her unarmed strikes deal 1d6 points of damage (1d4 if she is Small).
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Crippling Blow|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:Once per day when you hit with an attack, you can deal %1 point of ability damage to the target's Strength or Dexterity score.&pipe;CripplingBlowDamage
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Elemental Stance|TYPE:Unchained Rage Power.SpecialAttack.Supernatural|DESC:When you adopt this stance, you choose an energy type (acid, cold, electricity, or fire). Your melee attacks deal|DESC:1&pipe;PREVARLT&colon;RagePowersLVL,8|DESC:1d6&pipe;PREVARGTEQ&colon;RagePowersLVL,8|DESC:additional point of damage of the chosen type.|DESC:Your critical hits deal an additional 1d10 points of energy damage of the same type (2d10 if the weapon deals x3 damage on a critical hit, 3d10 if the weapon deals x4 damage on a critical hit).&pipe;PREVARGTEQ&colon;RagePowersLVL,12|DESC:This is a stance rage power.
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ No Escape|TYPE:Unchained Rage Power.SpecialQuality.Extraordinary|DESC:;You can move up to double your base speed as an immediate action. You can use this ability only when an adjacent foe uses a withdraw action to move away from you. You must end your movement adjacent to the enemy that used the withdraw action. Youprovokes attacks of opportunity as normal during this movement.
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Powerful Stance|TYPE:Unchained Rage Power.SpecialAttack.Extraordinary|DESC:You can focus your ferocity. You gain a +%1 bonus on melee damage rolls and thrown weapon damage rolls. This is a stance rage power.&pipe;PowerfulStanceBonus
+USERPOOL:Unchained Rage Power|POOLPOINTS:0.0
+ABILITY:Unchained Raging Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Standard Unchained Rage|TYPE:UnchainedRageSelection
+USERPOOL:Unchained Raging Selection|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Gaff|WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe]
+WEAPONPROF:[WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club]
+WEAPONPROF:[WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhoka|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sling Glove]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:3250.00
+EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt of Giant Strength +4|OUTPUTORDER:3|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Studded Leather|OUTPUTORDER:2|COST:25|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.01|VALUE:Studded Leather|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.02|VALUE:Belt of Giant Strength +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.03|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Unchained Rage|TBTARGET:PC|TBBONUS:VAR&pipe;RAGING&pipe;1
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Arson Subdomain|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Cooperation Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Entropy Subdomain|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Fear Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Flotsam Subdomain|DOMAIN:Freedom Subdomain|DOMAIN:Friendship Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Isolation Subdomain|DOMAIN:Judgment Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Loyalty Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Moon Subdomain|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revelry Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rivers Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Slavery Subdomain|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Torture Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Tyranny Subdomain|DOMAIN:Undead Subdomain|DOMAIN:Venom Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Whimsy Subdomain|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

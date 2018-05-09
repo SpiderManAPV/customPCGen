@@ -1,0 +1,329 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Arcane Anthology|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Occult Adventures|CAMPAIGN:Adam's Pathfinder Campaign|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Advanced Class Origins|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Races|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:Elves of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Mythic Adventures|CAMPAIGN:Path of War|CAMPAIGN:PCGen Enhancement Re-namer
+VERSION:6.07.05
+ROLLMETHOD:2|EXPRESSION:Powerful NPC
+PURCHASEPOINTS:Y|TYPE:Powerful NPC
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Allistyr Marbough
+TABNAME:Allistyr (Brendin)
+PLAYERNAME:Brendin
+HEIGHT:76
+WEIGHT:240
+AGE:25
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:17
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:16
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:16
+ALIGN:LN
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:11|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Martial Training|LEVEL:0|SKILLPOOL:0|SPELLBASE:OTHER|CANCASTPERDAY:
+CLASS:Martial Training Stances|LEVEL:0|SKILLPOOL:0|SPELLBASE:OTHER|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:2|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=7|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=8|HITPOINTS:4|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=9|HITPOINTS:8|PRESTAT:STR=-2|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=10|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=11|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105000
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Kyonin)]
+
+# Character Region
+REGION:Kyonin
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Fighter|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:29|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:39|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Fighter|RANKS:11.0|COST:1|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:20|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
+SKILL:Escape Artist|OUTPUTORDER:22|
+SKILL:Fly|OUTPUTORDER:23|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|
+SKILL:Intimidate|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Fighter|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Fighter|RANKS:11.0|COST:1|CLASSSKILL:N]
+SKILL:Perception (Dim Light)|OUTPUTORDER:37|
+SKILL:Perform (Untrained)|OUTPUTORDER:38|
+SKILL:Profession (Untrained)|OUTPUTORDER:40|
+SKILL:Ride|OUTPUTORDER:41|
+SKILL:Samurai Mount|OUTPUTORDER:42|
+SKILL:Sense Motive|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:44|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:45|
+SKILL:Stealth|OUTPUTORDER:48|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:49|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:50|
+SKILL:Stealth (Jungle)|OUTPUTORDER:51|
+SKILL:Survival|OUTPUTORDER:52|
+SKILL:Swim|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:54|
+SKILL:Untrained Dexterity|OUTPUTORDER:55|
+SKILL:Untrained Intelligence|OUTPUTORDER:56|
+SKILL:Untrained Strength|OUTPUTORDER:57|
+SKILL:Untrained Wisdom|OUTPUTORDER:58|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:46|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:47|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Elven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Drawbacks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Drawback ~ Burned|TYPE:Drawback|DESC:You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident, and the scars pain you terribly you whenever you are too near to fre. You take a -1 penalty on saving throws against fire effects. In addition, whenever you are adjacent to open fames or are on fire, you take a -1 penalty on all attack rolls, saving throws, and skill checks until you spend an entire round away from fire. These penalties are not cumulative. (An instantaneous fire effect adjacent to you or affecting you causes this penalty to apply until 1 round after it is gone.)
+USERPOOL:Drawbacks|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Blind-Fight|TYPE:Combat.AttackOption.DraconicBloodline.InfernalBloodline.DeepearthBloodline.DreamspunBloodline.ShadowBloodline.StarsoulBloodline.AccursedBloodline.DraconicBloodragerBloodline.InfernalBloodragerBloodline.KytonBloodragerBloodline|DESC:You are skillled at attacking opponents that you cannot clearly perceive.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Unarmed Strike|TYPE:Combat.CloakedWolfBonusFeat.AberrantBloodline.AberrantBloodragerBloodline|DESC:You are skilled while fighting unarmed.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training I|TYPE:Combat|SAVE:BONUS&pipe;PCLEVEL&pipe;MARTIAL TRAINING&pipe;1|SAVE:BONUS&pipe;PCLEVEL&pipe;MARTIAL TRAINING STANCES&pipe;1|DESC:Select a martial discipline. The associated skill for this discipline is now a class skill. Your martial initiator level maneuvers granted by this feat (and subsequent Martial Training feats) is equal to half your character level + your attribute modifier that modifies your chosen discipline for use with this discipline (example, Dexterity for a discipline that uses Acrobatics), not to exceed your character level. Likewise, your initiation modifier is the attribute modifier that effects the associated skill of this chosen discipline (for example, Charisma if the discipline uses Diplomacy). You may select any two maneuvers from the 1st level maneuvers from this discipline, and you may ready one of your maneuvers for use. You may recover one maneuver by expending a full round action to recover it. Special&colon; If you ever gain levels in a martial adept class or possess them previously, these maneuvers continue to use their own initiator level and recovery method, independent of your martial adept level. Those wishing to add new maneuvers from a discipline that is already available to their class should instead select the Advanced Study feat instead
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training II|TYPE:Combat|DESC:You may select two new maneuvers and one stance from your chosen discipline of up to 2nd level, and you may ready an additional maneuver. You must meet the minimum initiator level to select any maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training III|TYPE:Combat|DESC:You may select an additional new maneuver from your chosen discipline of up to 3rd level, plus one new stance, and you may ready an additional maneuver. You may also trade out any one maneuver from your chosen discipline you know and replace it with a different maneuver from that discipline of up to 2nd level. You must meet the minimum initiator level to select any maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training IV|TYPE:Combat|DESC:You may select two new maneuvers from your chosen discipline of up to 4th level, and you may ready an additional maneuver. You must meet the minimum initiator level to select any maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training V|TYPE:Combat|DESC:You may select two new maneuvers or one new maneuver and one new stance from your chosen discipline of up to 5th level, and you may ready an additional maneuver. You may also trade out any one maneuver from your chosen discipline you know and replace it with a different maneuver from that discipline of up to 4th level. You must meet the minimum initiator level to select any maneuver.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fighter|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Intimidate|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Blinded Blade Style|TYPE:Combat.Style|DESC:You are skilled at attacking opponents that you cannot clearly perceive.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cleave|TYPE:Combat.AbyssalBloodline.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can strike two adjacent foes with a single swing.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Death or Glory|TYPE:Combat|DESC:Even when facing a larger foe, you aren't afraid to take great risks in order to finish the fight.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Great Cleave|TYPE:Combat|DESC:You can strike many adjacent foes with a single blow.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Vital Strike|TYPE:Combat.SaurianShamanBonus|DESC:You make a single attack that deals significantly more damage than normal.
+USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ Unknown|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Martial Training Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Training Discipline ~ Eternal Guardian|TYPE:MartialTrainingDiscipline
+USERPOOL:Martial Training Discipline|POOLPOINTS:0.0
+ABILITY:Mythic Feat|TYPE:NORMAL|CATEGORY:Mythic Feat|KEY:Mythic Paragon|TYPE:Mythic|DESC:Your mythic power is even more potent than that of most other mythic beings.
+USERPOOL:Mythic Feat|POOLPOINTS:0.0
+ABILITY:Mythic Path|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path ~ Champion|TYPE:Mythic Path.SpecialQuality|DESC:The champion is the pinnacle of skill at arms and armor. No ordinary fighter could hope to match the skill with a blade, a bow, or an axe that surges within a mythic champion. The champion turns aside blows and shatters shields with every movement, all while racing gracefully across the chaotic battlefield. When the screams of fallen foes die down, the champion stands strong and defiant in blood-spattered armor, hefting a weapon and shouting a terrifying war cry.&amp;nl;Role&colon; As a champion, your role is to take the fight to your enemies. Using devastating melee powers, you can crush your enemies before they even have a chance to harm you and your allies. Few can match your skill at arms or your ability to perform amazing feats of strength. The champion abilities allow you to control your foes, move easily around the battlefield, and challenge a large number of foes all at once. The rest of the party can count on you to dominate any melee you charge into.&amp;nl;Classes&colon; While members or nearly any class could be champions, those who focus on melee attacks-- barbarians, cavaliers, fighters, monks, paladins, and rangers--will find the abilities in this path most attractive and useful. However, even magi or rogues could find that the path of the champion is an excellent way to augment their abilities.
+USERPOOL:Mythic Path|POOLPOINTS:0.0
+ABILITY:Mythic Path Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Ability ~ Always a Chance|TYPE:Mythic Path Ability.SpecialQuality.Extraordinary|DESC:You don't automatically miss when you roll a 1 on an attack roll.
+USERPOOL:Mythic Path Ability|POOLPOINTS:0.0
+ABILITY:Mythic Path Feature ~ Champion's Strike|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Feature ~ Sudden Attack|TYPE:Mythic Path Feature.Champion Path Feature.SpecialAttack|DESC:As a swift action, you can expend one use of mythic power to make a melee attack at your highest attack bonus. This is in addition to any other attacks you make this round. When making a sudden attack, you roll twice and take the better result, adding +%1 to the attack roll. Damage from this attack bypasses all damage reduction.&pipe;MythicLevel
+USERPOOL:Mythic Path Feature ~ Champion's Strike|POOLPOINTS:0.0
+ABILITY:Mythic Tier|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Level|APPLIEDTO:|TYPE:Mythic Tier|DESC:Mythic characters advance in power by gaining tiers, each of which grants new abilities. Attaining a new mythic tier requires completing difficult trials within the campaign's story rather than accumulating experience points. Mythic tiers range from 1 to 10. Characters who achieve 10th tier are at the height of mythic power, and are in some respects akin to minor deities.
+USERPOOL:Mythic Tier|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Optional Rules Firearms ~ No Guns|TYPE:OptionalRules.FirearmsRule|DESC:If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Fractional BAB|TYPE:OptionalRules
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Fractional Saves|TYPE:OptionalRules
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Unchained Skills|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Kyonin|TYPE:Region|DESC:Kingdom of the Elves
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Called|TYPE:Trait.BasicTrait.FaithTrait|DESC:Your deity or a powerfl spirit spoke to you when you were young, dropping cryptic hints about the important destiny that lay befre you and how you must win your fghts if you are to achieve your predetermined greatness. Once per day upon rolling a natural 1 on an attack roll, you may reroll the die and take the second result instead.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Dedicated Defender|TYPE:Trait.BasicTrait.CombatTrait|DESC:When a companion is down, you fight harder. You gain a +1 trait bonus on attack rolls and on checks made to overcome spell resistance while you are adjacent to a dying or disabled ally, animal companion, eidolon, familiar, or mount.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Mercenary|TYPE:Trait.BasicTrait.SocialTrait|DESC:For everything there is a price, and you are a negotiator at heart. You gain a +2 trait bonus on Diplomacy, Intimidate, and Sense Motive checks made while negotiating payment for a quest or a service that you provide.
+USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Weapon Training I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Training 1 Blades Heavy|TYPE:WeaponTraining.Fighter Weapon Training.WeaponTraining1.WeaponTrainingBladesHeavy
+USERPOOL:Weapon Training I|POOLPOINTS:0.0
+ABILITY:Weapon Training II|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Training 2 Blades Light|TYPE:WeaponTraining.Fighter Weapon Training.WeaponTraining2.WeaponTrainingBladesLight
+USERPOOL:Weapon Training II|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Gaff|WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe]
+WEAPONPROF:[WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club]
+WEAPONPROF:[WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhoka|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sling Glove]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Axe, Throwing|OUTPUTORDER:10|COST:8.0|WT:2.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Axe (Throwing)|DATA:NAME=Axe, Throwing$KEY=Axe (Throwing)$EQMOD=STEEL]
+EQUIPNAME:Block of Obsidian|OUTPUTORDER:16|COST:200.0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Art|DATA:NAME=Block of Obsidian$EQMOD=ADDTYPE&pipe;General._WEIGHTADD&pipe;7$SPROP=(Art (General))$COSTMOD=200.0]
+EQUIPNAME:Blue Cloak (Iona)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak|DATA:NAME=Blue Cloak (Iona)$SPROP=(Cloak), (Cloak)]
+EQUIPNAME:Bolt, Crossbow|OUTPUTORDER:19|COST:0.1|WT:0.1|QUANTITY:95.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow$KEY=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:20|COST:1|WT:0.02|QUANTITY:320.0|NOTE:
+EQUIPNAME:Dragon Tooth|OUTPUTORDER:9|COST:100.0|WT:2.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Art|DATA:NAME=Dragon Tooth$EQMOD=ADDTYPE&pipe;Animal._WEIGHTADD&pipe;2$COSTMOD=100.0]
+EQUIPNAME:Full Plate +1|OUTPUTORDER:6|COST:2650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +1$EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Hedgehog|OUTPUTORDER:21|COST:5|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Journal|OUTPUTORDER:13|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Longsword +2 (Glorious)|OUTPUTORDER:1|COST:8315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +2 (Glorious)$EQMOD=STEEL.PLUS2W]
+EQUIPNAME:Masterwork Crossbow, Heavy|OUTPUTORDER:18|COST:350.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Heavy)|DATA:NAME=Masterwork Crossbow, Heavy$KEY=Masterwork Crossbow (Heavy)$EQMOD=WOOD.MWORKW]
+EQUIPNAME:Masterwork Cutlass|OUTPUTORDER:11|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Masterwork Cutlass$EQMOD=STEEL.ADDTYPE&pipe;Masterwork$SPROP=(Scimitar (Masterwork))]
+EQUIPNAME:My Journeys with Aroden|OUTPUTORDER:8|COST:350.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Art|DATA:NAME=My Journeys with Aroden$EQMOD=ADDTYPE&pipe;Book._WEIGHTADD&pipe;1$SPROP=(Art (Book))$COSTMOD=350.0]
+EQUIPNAME:Obsidian Short Sword|OUTPUTORDER:12|COST:305.0|WT:1.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Short)|DATA:NAME=Obsidian Short Sword$EQMOD=OBSIDIAN._WEIGHTADD&pipe;-0,5$SPROP=Fragile, 1/2 hardness$COSTMOD=295.0]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:15|COST:50|WT:0.0|QUANTITY:8.0|NOTE:
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:17|COST:0.5|WT:1.0|QUANTITY:18.0|NOTE:
+EQUIPNAME:Rope (Hemp/50 ft)|OUTPUTORDER:22|COST:1|WT:10.0|QUANTITY:7.0|NOTE:
+EQUIPNAME:Sapphire (Blue)|OUTPUTORDER:14|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield, Heavy Steel +1|OUTPUTORDER:3|COST:1170.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield, Heavy Steel +1$KEY=Shield +1 (Heavy/Steel)$EQMOD=STEEL.PLUS1S]
+EQUIPNAME:Silver Ring (Iona)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Silver Ring (Iona)$SPROP=(Ring)]
+EQUIPNAME:Torch|OUTPUTORDER:7|COST:0.01|WT:1.0|QUANTITY:10.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.01|VALUE:My Journeys with Aroden|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Longsword +2 (Glorious)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.03|VALUE:Silver Ring (Iona)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.04|VALUE:Coin (Gold Piece)|QUANTITY:320.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.05|VALUE:Dragon Tooth|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Axe, Throwing|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.07|VALUE:Masterwork Cutlass|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.08|VALUE:Obsidian Short Sword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.09|VALUE:Journal|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Sapphire (Blue)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.12|VALUE:Hedgehog|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.13|VALUE:Blue Cloak (Iona)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.17|VALUE:Potion of Cure Light Wounds|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.18|VALUE:Torch|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Block of Obsidian|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.20|VALUE:Rations (Trail/Per Day)|QUANTITY:18.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.21|VALUE:Masterwork Crossbow, Heavy|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Masterwork Crossbow, Heavy|ID:0.1.21.01|VALUE:Bolt, Crossbow|QUANTITY:95.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.22|VALUE:Rope (Hemp/50 ft)|QUANTITY:7.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.23|VALUE:Full Plate +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.24|VALUE:Shield, Heavy Steel +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.25|VALUE:Gauntlet|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:TEMPLATE=Sickened|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;DAMAGE.MELEE,DAMAGE.RANGED,DAMAGE.NATURAL&pipe;-2|TBBONUS:COMBAT&pipe;TOHIT&pipe;-2|TBBONUS:SAVE&pipe;FORTITUDE,REFLEX,WILL&pipe;-2|TBBONUS:SKILL&pipe;TYPE.Base&pipe;-2
+TEMPBONUS:FEAT=Temp Bonus ~ Inspire Greatness|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;TOHIT&pipe;2&pipe;TYPE=COMPETENCE|TBBONUS:HP&pipe;CURRENTMAX&pipe;%CHOICE+(CON*2)|TBBONUS:SAVE&pipe;FORTITUDE&pipe;1&pipe;TYPE=COMPETENCE
+TEMPBONUS:FEAT=Temp Bonus ~ Inspire Courage|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;TOHIT,DAMAGE&pipe;INSPIRECOURAGEBONUS&pipe;TYPE=COMPETENCE|TBBONUS:VAR&pipe;ACTIVATETEMPBONUS&pipe;1|TBBONUS:VAR&pipe;INSPIRECOURAGEBONUS&pipe;2
+TEMPBONUS:SPELL=Good Hope|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;TOHIT,DAMAGE.MELEE,DAMAGE.RANGED&pipe;2&pipe;TYPE=MORALE|TBBONUS:SAVE&pipe;FORTITUDE,REFLEX,WILL&pipe;2&pipe;TYPE=MORALE|TBBONUS:SKILL&pipe;TYPE.Base&pipe;2&pipe;TYPE=MORALE
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Aroden|DEITYDOMAINS:[]|ALIGNALLOW:|DEITYFAVWEAP:[]|DEITYALIGN:
+
+# Character Spells Information
+SPELLNAME:Binding Fetters|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Fear the Reaper|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Grim Guard's Laughter|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Oath of the Intercessor|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Relentless Warden's Strike|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Shackles of the Condemned|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Strike of the Infinite Protector|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Strike of the Royal Guardian|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Terrifying Blow|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Watchman's Rebuke|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Stance of the Eternal Guardian|TIMES:1|CLASS:Martial Training Stances|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Martial Training Stances]
+SPELLNAME:Valiant Keeper's Stance|TIMES:1|CLASS:Martial Training Stances|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Martial Training Stances]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:HANDED|SKIN_TONE|HAIR_COLOR|HAIR_STYLE|EYE_COLOR|REGION
+

@@ -1,0 +1,314 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Arcane Anthology|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Occult Adventures|CAMPAIGN:Adam's Pathfinder Campaign|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Advanced Class Origins|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Humans of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Races|CAMPAIGN:Kingmaker Player's Guide|CAMPAIGN:Magical Marketplace|CAMPAIGN:Elves of Golarion|CAMPAIGN:PF - Quests and Campaigns|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Mythic Adventures|CAMPAIGN:Path of War|CAMPAIGN:PCGen Enhancement Re-namer
+VERSION:6.07.05
+ROLLMETHOD:2|EXPRESSION:Powerful NPC
+PURCHASEPOINTS:Y|TYPE:Powerful NPC
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Kai
+TABNAME:Kai (Donnelly)
+PLAYERNAME:Donnelly
+HEIGHT:70
+WEIGHT:165
+AGE:21
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Tan
+EYECOLOR:Blue
+HAIRCOLOR:Black
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:19
+STAT:CON|SCORE:12
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:16
+ALIGN:CG
+RACE:Half-Elf
+
+# Character Class(es)
+CLASS:Swashbuckler|LEVEL:11|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Martial Training|LEVEL:0|SKILLPOOL:0|SPELLBASE:OTHER|CANCASTPERDAY:
+CLASS:Martial Training Stances|LEVEL:0|SKILLPOOL:0|SPELLBASE:OTHER|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Swashbuckler=1|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=2|HITPOINTS:7|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=3|HITPOINTS:7|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=4|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=5|HITPOINTS:9|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=6|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=7|HITPOINTS:7|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=8|HITPOINTS:7|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=9|HITPOINTS:7|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=10|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=11|HITPOINTS:2|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105000
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity (Ulfen)]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Appraise (Natural stones or metals)|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:28|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:38|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Fly|OUTPUTORDER:22|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:25|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:26|
+SKILL:Heal|OUTPUTORDER:27|
+SKILL:Intimidate|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception (Dim Light)|OUTPUTORDER:36|
+SKILL:Perform (Untrained)|OUTPUTORDER:37|
+SKILL:Profession (Untrained)|OUTPUTORDER:39|
+SKILL:Ride|OUTPUTORDER:40|
+SKILL:Samurai Mount|OUTPUTORDER:41|
+SKILL:Sense Motive|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
+SKILL:Stealth|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:48|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:49|
+SKILL:Stealth (Jungle)|OUTPUTORDER:50|
+SKILL:Survival|OUTPUTORDER:51|
+SKILL:Swim|OUTPUTORDER:52|
+SKILL:Untrained Charisma|OUTPUTORDER:53|
+SKILL:Untrained Dexterity|OUTPUTORDER:54|
+SKILL:Untrained Intelligence|OUTPUTORDER:55|
+SKILL:Untrained Strength|OUTPUTORDER:56|
+SKILL:Untrained Wisdom|OUTPUTORDER:57|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:46|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Skald|LANGUAGE:Sylvan|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Undercommon|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan,Undercommon|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Adaptability Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Acrobatics|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
+USERPOOL:Adaptability Bonus Feat|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agile Maneuvers|TYPE:Combat.ProteanBloodline|DESC:You learned to use your quickness in place of brute force when performing combat maneuvers.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:Combat.SerpentineBloodline.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.FeyBloodragerBloodline.InfernalBloodragerBloodline.BlackBloodBloodragerBloodline|DESC:You can make additional attacks of opportunity.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fencing Grace|TYPE:Combat|DESC:Your dashing style and fluid rapier forms allow you to use agility rather than brute force to fell your foes.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training III|TYPE:Combat|DESC:You may select an additional new maneuver from your chosen discipline of up to 3rd level, plus one new stance, and you may ready an additional maneuver. You may also trade out any one maneuver from your chosen discipline you know and replace it with a different maneuver from that discipline of up to 2nd level. You must meet the minimum initiator level to select any maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training IV|TYPE:Combat|DESC:You may select two new maneuvers from your chosen discipline of up to 4th level, and you may ready an additional maneuver. You must meet the minimum initiator level to select any maneuver.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training V|TYPE:Combat|DESC:You may select two new maneuvers or one new maneuver and one new stance from your chosen discipline of up to 5th level, and you may ready an additional maneuver. You may also trade out any one maneuver from your chosen discipline you know and replace it with a different maneuver from that discipline of up to 4th level. You must meet the minimum initiator level to select any maneuver.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle|TYPE:FavoredClass
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swashbuckler|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 INT Score Bonus|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 INT bonus.
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Half-Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Half-Elf Racial Subtype|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Ulfen|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Martial Training Choice|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Training ~ Two Maneuvers|APPLIEDTO:|TYPE:MartialTrainingChoice
+USERPOOL:Martial Training Choice|POOLPOINTS:0.0
+ABILITY:Martial Training Discipline|TYPE:NORMAL|CATEGORY:Internal|KEY:Martial Training Discipline ~ Mithral Current|TYPE:MartialTrainingDiscipline
+USERPOOL:Martial Training Discipline|POOLPOINTS:0.0
+ABILITY:Mythic Feat|TYPE:NORMAL|CATEGORY:Mythic Feat|KEY:Dual Path|TYPE:Mythic|DESC:You follow two mythic paths.
+USERPOOL:Mythic Feat|POOLPOINTS:0.0
+ABILITY:Mythic Path|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path ~ Champion|TYPE:Mythic Path.SpecialQuality|DESC:The champion is the pinnacle of skill at arms and armor. No ordinary fighter could hope to match the skill with a blade, a bow, or an axe that surges within a mythic champion. The champion turns aside blows and shatters shields with every movement, all while racing gracefully across the chaotic battlefield. When the screams of fallen foes die down, the champion stands strong and defiant in blood-spattered armor, hefting a weapon and shouting a terrifying war cry.&amp;nl;Role&colon; As a champion, your role is to take the fight to your enemies. Using devastating melee powers, you can crush your enemies before they even have a chance to harm you and your allies. Few can match your skill at arms or your ability to perform amazing feats of strength. The champion abilities allow you to control your foes, move easily around the battlefield, and challenge a large number of foes all at once. The rest of the party can count on you to dominate any melee you charge into.&amp;nl;Classes&colon; While members or nearly any class could be champions, those who focus on melee attacks-- barbarians, cavaliers, fighters, monks, paladins, and rangers--will find the abilities in this path most attractive and useful. However, even magi or rogues could find that the path of the champion is an excellent way to augment their abilities.
+USERPOOL:Mythic Path|POOLPOINTS:0.0
+ABILITY:Mythic Path / Second|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dual Path ~ Trickster|TYPE:Dual Path.SpecialQuality|DESC:Seen only when they choose to be seen, tricksters manipulate kings and peasants alike, usually without anyone sensing their inf luence. Characters who rely upon their skills and wit find themselves drawn to the trickster's path. The mythic power of these heroes allows them to perform tasks that most would consider impossible. They can climb any wall, swim any current, and move without being seen by even the most observant guard. When they strike at their foes, they do so with unmatched accuracy.&amp;nl;Role&colon; As a trickster, your role in the party is one of deception and manipulation. You have access to a number of abilities that empower you to confound your foes, both physically and mentally. With a subtle jest or twist of phrase, you can steer entire cities and even nations to do your bidding--but should that fail, you can always rely on a dagger from the shadows.&amp;nl;Classes&colon; Members of any class that relies on skills would make good tricksters, as would those who heavily utilize ranged combat or magical methods of subterfuge. The alchemist, bard, and rogue all have a number of abilities that fit well with the trickster. Gunslingers, monks, and rangers will also find that the trickster has more than a few interesting options.
+USERPOOL:Mythic Path / Second|POOLPOINTS:0.0
+ABILITY:Mythic Path Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Ability ~ Legendary Item|APPLIEDTO:|TYPE:Mythic Path Ability.SpecialQuality.Extraordinary|DESC:You gain a legendary item. This item grants %1 abilities. At 3rd tier, you can select this ability again, causing the item to become a lesser artifact. At 6th tier, you can select this ability again; the item then becomes a greater artifact.&pipe;min(10,min(Ability_LegendaryItem_AbilityCount,MythicLevel))
+USERPOOL:Mythic Path Ability|POOLPOINTS:0.0
+ABILITY:Mythic Path Feature ~ Champion's Strike|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Feature ~ Sudden Attack|TYPE:Mythic Path Feature.Champion Path Feature.SpecialAttack|DESC:As a swift action, you can expend one use of mythic power to make a melee attack at your highest attack bonus. This is in addition to any other attacks you make this round. When making a sudden attack, you roll twice and take the better result, adding +%1 to the attack roll. Damage from this attack bypasses all damage reduction.&pipe;MythicLevel
+USERPOOL:Mythic Path Feature ~ Champion's Strike|POOLPOINTS:0.0
+ABILITY:Mythic Path Feature ~ Trickster Attack|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Path Feature ~ Surprise Strike|TYPE:Mythic Path Feature.Trickster Path Feature.SpecialAttack|DESC:As a swift action, you can expend one use of mythic power to make a melee attack or ranged attack against a target within 30 feet, in addition to any other attacks you make this round. When you make a surprise strike, the target is considered flat-footed regardless of any class features or abilities it might have, and you add +%1 to the attack roll. Damage from this attack bypasses damage reduction.&pipe;MythicLevel
+USERPOOL:Mythic Path Feature ~ Trickster Attack|POOLPOINTS:0.0
+ABILITY:Mythic Tier|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mythic Level|APPLIEDTO:|TYPE:Mythic Tier|DESC:Mythic characters advance in power by gaining tiers, each of which grants new abilities. Attaining a new mythic tier requires completing difficult trials within the campaign's story rather than accumulating experience points. Mythic tiers range from 1 to 10. Characters who achieve 10th tier are at the height of mythic power, and are in some respects akin to minor deities.
+USERPOOL:Mythic Tier|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Optional Rules Firearms ~ No Guns|TYPE:OptionalRules.FirearmsRule|DESC:If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Fractional BAB|TYPE:OptionalRules
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Fractional Saves|TYPE:OptionalRules
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rule - Use Unchained Skills|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Swashbuckler Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Swashbuckler Archetype ~ Inspired Blade|TYPE:Archetype.SwashbucklerArchetype.SwashbucklerBleedingWoundDeed.SwashbucklerPanache.SwashbucklerFinesse.SwashbucklerWeaponTraining.SwashbucklerWeaponMastery|DESC:An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection of combat with the rapier. They use the science and geometry with swordplay to beautiful and deadly effect.
+USERPOOL:Swashbuckler Archetype|POOLPOINTS:0.0
+ABILITY:Swashbuckler Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training I|TYPE:Combat|SAVE:BONUS&pipe;PCLEVEL&pipe;MARTIAL TRAINING STANCES&pipe;1|SAVE:BONUS&pipe;PCLEVEL&pipe;MARTIAL TRAINING&pipe;1|SAVE:BONUS&pipe;PCLEVEL&pipe;MARTIAL TRAINING&pipe;1|SAVE:BONUS&pipe;PCLEVEL&pipe;MARTIAL TRAINING STANCES&pipe;1|DESC:Select a martial discipline. The associated skill for this discipline is now a class skill. Your martial initiator level maneuvers granted by this feat (and subsequent Martial Training feats) is equal to half your character level + your attribute modifier that modifies your chosen discipline for use with this discipline (example, Dexterity for a discipline that uses Acrobatics), not to exceed your character level. Likewise, your initiation modifier is the attribute modifier that effects the associated skill of this chosen discipline (for example, Charisma if the discipline uses Diplomacy). You may select any two maneuvers from the 1st level maneuvers from this discipline, and you may ready one of your maneuvers for use. You may recover one maneuver by expending a full round action to recover it. Special&colon; If you ever gain levels in a martial adept class or possess them previously, these maneuvers continue to use their own initiator level and recovery method, independent of your martial adept level. Those wishing to add new maneuvers from a discipline that is already available to their class should instead select the Advanced Study feat instead
+ABILITY:Swashbuckler Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Martial Training II|TYPE:Combat|DESC:You may select two new maneuvers and one stance from your chosen discipline of up to 2nd level, and you may ready an additional maneuver. You must meet the minimum initiator level to select any maneuver.
+USERPOOL:Swashbuckler Bonus Feat|POOLPOINTS:0.0
+ABILITY:Swashbuckler Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Add Swashbuckler Feat|APPLIEDTO:,|TYPE:Swashbuckler Bonus Feat Selection
+USERPOOL:Swashbuckler Bonus Feat Selection|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Highlander|TYPE:Trait.RegionalTrait|DESC:You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Modified Agile Dancer|TYPE:Trait.BasicTrait.SocialTrait
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Gaff|WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe]
+WEAPONPROF:[WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club]
+WEAPONPROF:[WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhoka|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sling Glove]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:+2 Chain Shirt (Mithral)|OUTPUTORDER:5|COST:5100.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=+2 Chain Shirt (Mithral)$EQMOD=PLUS2A.Mithral (Light Armor)]
+EQUIPNAME:Bag of Holding (Type II)|OUTPUTORDER:12|COST:5000|WT:25.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:4|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Boots of Elvenkind|OUTPUTORDER:7|COST:2500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:10|COST:0.01|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:11|COST:1|WT:0.02|QUANTITY:294.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:9|COST:0.1|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:Glowing Glove|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Longbow|OUTPUTORDER:14|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:NAME=Longbow$EQMOD=WOOD]
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:13|COST:2.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger$EQMOD=STEEL.ADDTYPE&pipe;Masterwork$SPROP=+% to melee attacks from Swashbuckler's Finesse &lbracket;not reflected on combat block&rbracket;&pipe;SwashbucklersFinesseToHit, (Dagger (Masterwork))]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:6|COST:10|WT:8.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Plume of (No) Panache|OUTPUTORDER:1|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hat|DATA:NAME=Plume of (No) Panache]
+EQUIPNAME:Rapier (Legendary/Upgradable)|OUTPUTORDER:3|COST:8320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier (Legendary/Upgradable)$EQMOD=STEEL.PLUS1W.Frost.Legendary Item.Legendary Item ~ Upgradable]
+EQUIPNAME:Swordmaster's Flair (Blue Scarf)|OUTPUTORDER:8|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whetstone|OUTPUTORDER:15|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.01|VALUE:Belt of Incredible Dexterity +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.02|VALUE:+2 Chain Shirt (Mithral)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.04|VALUE:Boots of Elvenkind|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.06|VALUE:Glowing Glove|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.07|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Swordmaster's Flair (Blue Scarf)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.10|VALUE:Coin (Silver Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.11|VALUE:Coin (Copper Piece)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.12|VALUE:Coin (Gold Piece)|QUANTITY:294.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.13|VALUE:Plume of (No) Panache|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.15|VALUE:Bag of Holding (Type II)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type II)|ID:0.1.15.01|VALUE:Masterwork Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type II)|ID:0.1.15.02|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type II)|ID:0.1.15.03|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.16|VALUE:Rapier (Legendary/Upgradable)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:TEMPLATE=Sickened|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;DAMAGE.MELEE,DAMAGE.RANGED,DAMAGE.NATURAL&pipe;-2|TBBONUS:COMBAT&pipe;TOHIT&pipe;-2|TBBONUS:SAVE&pipe;FORTITUDE,REFLEX,WILL&pipe;-2|TBBONUS:SKILL&pipe;TYPE.Base&pipe;-2
+TEMPBONUS:FEAT=Temp Bonus ~ Inspire Courage|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;TOHIT,DAMAGE&pipe;INSPIRECOURAGEBONUS&pipe;TYPE=COMPETENCE|TBBONUS:VAR&pipe;ACTIVATETEMPBONUS&pipe;1|TBBONUS:VAR&pipe;INSPIRECOURAGEBONUS&pipe;1
+TEMPBONUS:SPELL=Good Hope|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;TOHIT,DAMAGE.MELEE,DAMAGE.RANGED&pipe;2&pipe;TYPE=MORALE|TBBONUS:SAVE&pipe;FORTITUDE,REFLEX,WILL&pipe;2&pipe;TYPE=MORALE|TBBONUS:SKILL&pipe;TYPE.Base&pipe;2&pipe;TYPE=MORALE
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Cayden Cailean|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Good|DOMAIN:Strength|DOMAIN:Travel|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Exploration Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Love Subdomain|DOMAIN:Lust Subdomain|DOMAIN:Resolve Subdomain]|ALIGNALLOW:|DESC:God of ale, bravery, freedom, wine|DEITYFAVWEAP:[WEAPON:Rapier]|DEITYALIGN:CG
+
+# Character Spells Information
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Calm the Storm|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Disruptive Wave|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Flowing Creek|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Flowing Stream|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Ride the Current|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Ride the Wake|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Salt Breeze Strike|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Silver Wave|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Whirlpool Strike|TIMES:1|CLASS:Martial Training|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Martial Training]
+SPELLNAME:Flowing Water Stance|TIMES:1|CLASS:Martial Training Stances|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Martial Training Stances]
+SPELLNAME:Reaching Blade Stance|TIMES:1|CLASS:Martial Training Stances|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Martial Training Stances]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:HAIR_STYLE|REGION
+
