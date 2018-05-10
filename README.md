@@ -14,5 +14,5 @@ Primarily the changes are:
 
 ### Acknowledgements
 The vast majority of this project was done by the kind people over at http://pcgen.org/
-As PCGen is distributed with the GNU Lesser General Public Licesne  v2.1, this is distributed under that same license. It can be found in the Info\lgpl-2.1.txt file.
+As PCGen is distributed with the GNU Lesser General Public Licesne  v2.1, this is distributed under that same license. It can be found in the LICENSE file.
 To download the original source code, see the orignal code this is copied from at https://github.com/PCGen/pcgen
